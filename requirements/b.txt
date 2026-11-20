@@ -1,0 +1,7 @@
+-r base.txt
+neo4j
+cassandra-driver
+networkx
+pyvis
+SPARQLWrapper
+faker
