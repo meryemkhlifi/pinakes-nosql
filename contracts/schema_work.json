@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Work",
+  "description": "One catalog entry (MongoDB document, Elasticsearch document source, Neo4j import source).",
+  "type": "object",
+  "required": [
+    "_id",
+    "title",
+    "genre",
+    "authors",
+    "language"
+  ],
+  "properties": {
+    "_id": {
+      "type": "string",
+      "description": "Stable id, for example w_0001"
+    },
+    "title": {
+      "type": "string"
+    },
+    "incipit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "First line, or null if unknown"
+    },
+    "genre": {
+      "type": "string",
+      "enum": [
+        "epic",
+        "tragedy",
+        "comedy",
+        "lyric",
+        "history",
+        "philosophy",
+        "rhetoric",
+        "law",
+        "medicine",
+        "mathematics",
+        "science",
+        "miscellany"
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "For example a_plato"
+          },
+          "name": {
+            "type": "string"
+          },
+          "birth_year": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Negative = BCE"
+          },
+          "bio": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO code, for example en"
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Approximate year of writing, negative = BCE"
+    },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "string",
+      "description": "gutenberg, openlibrary, sample ..."
+    }
+  }
+}
