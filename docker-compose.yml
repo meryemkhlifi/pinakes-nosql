@@ -1,0 +1,8 @@
+# Runs every database at once (about 7 GB of RAM). For daily work run only your own stack:
+#   A: docker compose -p pinakes-a --env-file .env -f docker/stack-a.yml up -d
+#   B: docker compose -p pinakes-b --env-file .env -f docker/stack-b.yml up -d
+include:
+  - path: docker/stack-a.yml
+    env_file: .env
+  - path: docker/stack-b.yml
+    env_file: .env
