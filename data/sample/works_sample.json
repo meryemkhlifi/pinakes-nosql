@@ -1,0 +1,418 @@
+[
+  {
+    "_id": "w_0001",
+    "title": "Iliad",
+    "incipit": "Sing, O goddess, the anger of Achilles son of Peleus",
+    "genre": "epic",
+    "authors": [
+      {
+        "id": "a_homer",
+        "name": "Homer",
+        "birth_year": null,
+        "bio": "Name given to the poet of the Iliad and the Odyssey."
+      }
+    ],
+    "language": "en",
+    "year": -750,
+    "subjects": [
+      "Trojan War",
+      "Epic poetry"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0002",
+    "title": "Odyssey",
+    "incipit": "Tell me, O Muse, of that ingenious hero who travelled far and wide",
+    "genre": "epic",
+    "authors": [
+      {
+        "id": "a_homer",
+        "name": "Homer",
+        "birth_year": null,
+        "bio": "Name given to the poet of the Iliad and the Odyssey."
+      }
+    ],
+    "language": "en",
+    "year": -725,
+    "subjects": [
+      "Trojan War",
+      "Voyages"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0003",
+    "title": "The Republic",
+    "incipit": "I went down yesterday to the Piraeus with Glaucon the son of Ariston",
+    "genre": "philosophy",
+    "authors": [
+      {
+        "id": "a_plato",
+        "name": "Plato",
+        "birth_year": -428,
+        "bio": "Athenian philosopher, student of Socrates, founder of the Academy."
+      }
+    ],
+    "language": "en",
+    "year": -375,
+    "subjects": [
+      "Political science",
+      "Justice"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0004",
+    "title": "Nicomachean Ethics",
+    "incipit": null,
+    "genre": "philosophy",
+    "authors": [
+      {
+        "id": "a_aristotle",
+        "name": "Aristotle",
+        "birth_year": -384,
+        "bio": "Philosopher and student of Plato, tutor of Alexander the Great."
+      }
+    ],
+    "language": "en",
+    "year": -340,
+    "subjects": [
+      "Ethics",
+      "Virtue"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0005",
+    "title": "Rhetoric",
+    "incipit": null,
+    "genre": "rhetoric",
+    "authors": [
+      {
+        "id": "a_aristotle",
+        "name": "Aristotle",
+        "birth_year": -384,
+        "bio": "Philosopher and student of Plato, tutor of Alexander the Great."
+      }
+    ],
+    "language": "en",
+    "year": -330,
+    "subjects": [
+      "Persuasion",
+      "Public speaking"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0006",
+    "title": "Oedipus Rex",
+    "incipit": null,
+    "genre": "tragedy",
+    "authors": [
+      {
+        "id": "a_sophocles",
+        "name": "Sophocles",
+        "birth_year": -496,
+        "bio": "Athenian tragic playwright."
+      }
+    ],
+    "language": "en",
+    "year": -429,
+    "subjects": [
+      "Fate",
+      "Theban plays"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0007",
+    "title": "Medea",
+    "incipit": null,
+    "genre": "tragedy",
+    "authors": [
+      {
+        "id": "a_euripides",
+        "name": "Euripides",
+        "birth_year": -480,
+        "bio": "Athenian tragic playwright."
+      }
+    ],
+    "language": "en",
+    "year": -431,
+    "subjects": [
+      "Myth",
+      "Revenge"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0008",
+    "title": "The Clouds",
+    "incipit": null,
+    "genre": "comedy",
+    "authors": [
+      {
+        "id": "a_aristophanes",
+        "name": "Aristophanes",
+        "birth_year": -446,
+        "bio": "Athenian comic playwright."
+      }
+    ],
+    "language": "en",
+    "year": -423,
+    "subjects": [
+      "Satire",
+      "Education"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0009",
+    "title": "Histories",
+    "incipit": null,
+    "genre": "history",
+    "authors": [
+      {
+        "id": "a_herodotus",
+        "name": "Herodotus",
+        "birth_year": -484,
+        "bio": "Greek historian, often called the father of history."
+      }
+    ],
+    "language": "en",
+    "year": -430,
+    "subjects": [
+      "Persian Wars"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0010",
+    "title": "History of the Peloponnesian War",
+    "incipit": null,
+    "genre": "history",
+    "authors": [
+      {
+        "id": "a_thucydides",
+        "name": "Thucydides",
+        "birth_year": -460,
+        "bio": "Athenian historian and general."
+      }
+    ],
+    "language": "en",
+    "year": -411,
+    "subjects": [
+      "War",
+      "Athens",
+      "Sparta"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0011",
+    "title": "Elements",
+    "incipit": null,
+    "genre": "mathematics",
+    "authors": [
+      {
+        "id": "a_euclid",
+        "name": "Euclid",
+        "birth_year": null,
+        "bio": "Greek mathematician active in Alexandria."
+      }
+    ],
+    "language": "en",
+    "year": -300,
+    "subjects": [
+      "Geometry"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0012",
+    "title": "Aeneid",
+    "incipit": "Arms, and the man I sing",
+    "genre": "epic",
+    "authors": [
+      {
+        "id": "a_virgil",
+        "name": "Virgil",
+        "birth_year": -70,
+        "bio": "Roman poet of the Augustan age."
+      }
+    ],
+    "language": "en",
+    "year": -19,
+    "subjects": [
+      "Rome",
+      "Trojan War"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0013",
+    "title": "Odes",
+    "incipit": null,
+    "genre": "lyric",
+    "authors": [
+      {
+        "id": "a_horace",
+        "name": "Horace",
+        "birth_year": -65,
+        "bio": "Roman lyric poet."
+      }
+    ],
+    "language": "en",
+    "year": -23,
+    "subjects": [
+      "Rome",
+      "Lyric poetry"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0014",
+    "title": "On the Nature of Things",
+    "incipit": null,
+    "genre": "science",
+    "authors": [
+      {
+        "id": "a_lucretius",
+        "name": "Lucretius",
+        "birth_year": null,
+        "bio": "Roman poet and Epicurean philosopher."
+      }
+    ],
+    "language": "en",
+    "year": -55,
+    "subjects": [
+      "Epicureanism",
+      "Atoms"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0015",
+    "title": "Meditations",
+    "incipit": null,
+    "genre": "philosophy",
+    "authors": [
+      {
+        "id": "a_marcus_aurelius",
+        "name": "Marcus Aurelius",
+        "birth_year": 121,
+        "bio": "Roman emperor and Stoic philosopher."
+      }
+    ],
+    "language": "en",
+    "year": 180,
+    "subjects": [
+      "Stoicism"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0016",
+    "title": "Aphorisms",
+    "incipit": null,
+    "genre": "medicine",
+    "authors": [
+      {
+        "id": "a_hippocrates",
+        "name": "Hippocrates",
+        "birth_year": -460,
+        "bio": "Greek physician associated with the Hippocratic tradition."
+      }
+    ],
+    "language": "en",
+    "year": -400,
+    "subjects": [
+      "Medicine"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0017",
+    "title": "The Laws",
+    "incipit": null,
+    "genre": "law",
+    "authors": [
+      {
+        "id": "a_plato",
+        "name": "Plato",
+        "birth_year": -428,
+        "bio": "Athenian philosopher, student of Socrates, founder of the Academy."
+      }
+    ],
+    "language": "en",
+    "year": -350,
+    "subjects": [
+      "Law",
+      "Political science"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0018",
+    "title": "Odes of Pindar",
+    "incipit": null,
+    "genre": "lyric",
+    "authors": [
+      {
+        "id": "a_pindar",
+        "name": "Pindar",
+        "birth_year": -518,
+        "bio": "Greek lyric poet."
+      }
+    ],
+    "language": "en",
+    "year": -470,
+    "subjects": [
+      "Games",
+      "Lyric poetry"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0019",
+    "title": "Divine Comedy",
+    "incipit": null,
+    "genre": "epic",
+    "authors": [
+      {
+        "id": "a_dante",
+        "name": "Dante Alighieri",
+        "birth_year": 1265,
+        "bio": "Florentine poet."
+      }
+    ],
+    "language": "en",
+    "year": 1320,
+    "subjects": [
+      "Afterlife",
+      "Medieval literature"
+    ],
+    "source": "sample"
+  },
+  {
+    "_id": "w_0020",
+    "title": "Almagest",
+    "incipit": null,
+    "genre": "science",
+    "authors": [
+      {
+        "id": "a_ptolemy",
+        "name": "Ptolemy",
+        "birth_year": null,
+        "bio": "Greek-Egyptian astronomer and geographer."
+      }
+    ],
+    "language": "en",
+    "year": 150,
+    "subjects": [
+      "Astronomy"
+    ],
+    "source": "sample"
+  }
+]
