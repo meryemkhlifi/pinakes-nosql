@@ -1,19 +1,38 @@
 from fastapi import APIRouter, HTTPException
+from pymongo.errors import PyMongoError
+
+from backend.app.db import mongo as catalog_db
 
 router = APIRouter(prefix="/catalog", tags=["catalog"])
-NOT_READY = "Not implemented yet (task A3)"
+
+
+def _call(fn, *args):
+    """Call a MongoDB function; turn connection problems into a clear 503."""
+    try:
+        return fn(*args)
+    except PyMongoError as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="MongoDB is not reachable. Is stack A running (docker compose ... ps)?",
+        ) from exc
 
 
 @router.get("/genres", summary="List genres with the number of works")
 def list_genres():
-    raise HTTPException(status_code=501, detail=NOT_READY)
+    return _call(catalog_db.list_genres)
 
 
 @router.get("/genres/{genre}/authors", summary="Authors of a genre with their works")
 def authors_of_genre(genre: str):
-    raise HTTPException(status_code=501, detail=NOT_READY)
+    authors = _call(catalog_db.authors_of_genre, genre)
+    if not authors:
+        raise HTTPException(status_code=404, detail=f"Genre not found: {genre}")
+    return authors
 
 
-@router.get("/works/{work_id}", summary="One work (also counts a view in Redis)")
+@router.get("/works/{work_id}", summary="One work (a view will be counted in Redis on Day 4)")
 def get_work(work_id: str):
-    raise HTTPException(status_code=501, detail=NOT_READY)
+    work = _call(catalog_db.get_work, work_id)
+    if work is None:
+        raise HTTPException(status_code=404, detail=f"Work not found: {work_id}")
+    return work
