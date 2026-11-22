@@ -1,0 +1,110 @@
+{
+  "external_authors": [
+    {
+      "id": "a_alexander_the_great",
+      "name": "Alexander the Great"
+    },
+    {
+      "id": "a_socrates",
+      "name": "Socrates"
+    }
+  ],
+  "edges": [
+    {
+      "source": "a_alexander_the_great",
+      "target": "a_aristotle",
+      "type": "STUDENT_OF",
+      "origin": "curated"
+    },
+    {
+      "source": "a_aristotle",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_aristotle",
+      "target": "a_plato",
+      "type": "STUDENT_OF",
+      "origin": "curated"
+    },
+    {
+      "source": "a_dante",
+      "target": "a_homer",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_dante",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "curated"
+    },
+    {
+      "source": "a_euripides",
+      "target": "a_sophocles",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_horace",
+      "target": "a_pindar",
+      "type": "INFLUENCED_BY",
+      "origin": "curated"
+    },
+    {
+      "source": "a_horace",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_marcus_aurelius",
+      "target": "a_aristotle",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_marcus_aurelius",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_plato",
+      "target": "a_socrates",
+      "type": "STUDENT_OF",
+      "origin": "curated"
+    },
+    {
+      "source": "a_ptolemy",
+      "target": "a_euclid",
+      "type": "INFLUENCED_BY",
+      "origin": "curated"
+    },
+    {
+      "source": "a_ptolemy",
+      "target": "a_lucretius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thucydides",
+      "target": "a_herodotus",
+      "type": "INFLUENCED_BY",
+      "origin": "curated"
+    },
+    {
+      "source": "a_virgil",
+      "target": "a_homer",
+      "type": "INFLUENCED_BY",
+      "origin": "curated"
+    },
+    {
+      "source": "a_virgil",
+      "target": "a_lucretius",
+      "type": "INFLUENCED_BY",
+      "origin": "curated"
+    }
+  ]
+}
