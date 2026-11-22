@@ -4,6 +4,9 @@ from backend.app.main import app
 
 client = TestClient(app)
 
+# Endpoints that are still stubs. Remove a line here when its task is done.
+STILL_STUBS = ["/popular", "/monitoring/alerts", "/events/user/u_1"]
+
 
 def test_health():
     r = client.get("/health")
@@ -12,8 +15,8 @@ def test_health():
 
 
 def test_stubs_return_501():
-    for url in ["/catalog/genres", "/popular", "/graph/influence/top", "/monitoring/alerts"]:
-        assert client.get(url).status_code == 501
+    for url in STILL_STUBS:
+        assert client.get(url).status_code == 501, url
 
 
 def test_openapi_lists_every_endpoint():
