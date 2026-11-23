@@ -414,5 +414,6139 @@
    "Astronomy"
   ],
   "source": "sample"
+ },
+ {
+  "_id": "w_0021",
+  "title": "The Oldest Code of Laws in the World The code of laws promulgated by Hammurabi, King of Babylon, B.C. 2285-2242",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_king_of_babylonia_hammurabi",
+    "name": "King of Babylonia Hammurabi",
+    "birth_year": -1811,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -1781,
+  "subjects": [
+   "Law"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0022",
+  "title": "Odysseus, the Hero of Ithaca Adapted from the Third Book of the Primary Schools of Athens, Greece",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Classical literature",
+   "Homer",
+   "Epic poetry, Greek",
+   "Classical poetry",
+   "Odysseus, King of Ithaca (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0023",
+  "title": "The Iliad",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Classical literature",
+   "Epic poetry, Greek",
+   "Achilles (Mythological character)",
+   "Trojan War"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0024",
+  "title": "The Iliad of Homer Translated into English Blank Verse by William Cowper",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Epic poetry, Greek",
+   "Achilles (Mythological character)",
+   "Trojan War"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0025",
+  "title": "The Iliads of Homer Translated according to the Greek",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Epic poetry, Greek",
+   "Achilles (Mythological character)",
+   "Trojan War"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0026",
+  "title": "The Odyssey",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Homer",
+   "Epic poetry, Greek",
+   "Odysseus, King of Ithaca (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0027",
+  "title": "The Odyssey of Homer",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Homer",
+   "Epic poetry, Greek",
+   "Odysseus, King of Ithaca (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0028",
+  "title": "The Odyssey Rendered into English prose for the use of those who cannot read the original",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Homer",
+   "Epic poetry, Greek",
+   "Odysseus, King of Ithaca (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0029",
+  "title": "The Odysseys of Homer, together with the shorter poems",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_homer",
+    "name": "Homer",
+    "birth_year": -751,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -721,
+  "subjects": [
+   "Epic poetry, Greek",
+   "Odysseus, King of Ithaca (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0030",
+  "title": "Aesop's Fables: A New Revised Version From Original Sources",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0031",
+  "title": "Aesop's Fables; a new translation",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0032",
+  "title": "Aesop, in Rhyme: Old Friends in a New Dress",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   },
+   {
+    "id": "a_marmaduke_park",
+    "name": "Marmaduke Park",
+    "birth_year": null,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0033",
+  "title": "Bewick's Select Fables of Æsop and others. In three parts. 1. Fables extracted from Dodsley's. 2. Fables with reflections in prose and verse. 3. Fables in verse.",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   },
+   {
+    "id": "a_robert_dodsley",
+    "name": "Robert Dodsley",
+    "birth_year": 1703,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0034",
+  "title": "Some of Æsop's Fables with Modern Instances",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables, Greek",
+   "Aesop's fables",
+   "English wit and humor, Pictorial"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0035",
+  "title": "The Aesop for Children With pictures by Milo Winter",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Folklore",
+   "Fables",
+   "Aesop's fables"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0036",
+  "title": "The Fables of Aesop Selected, Told Anew, and Their History Traced",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Aesop's fables",
+   "Fables, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0037",
+  "title": "The Fables of Æsop, and Others With Designs on Wood",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables, Greek",
+   "Fables"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0038",
+  "title": "Three hundred Aesop’s fables Translated by George Fyler Townsend",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables, Greek",
+   "Aesop's fables"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0039",
+  "title": "Æsop's Fables",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Fables",
+   "Aesop's fables",
+   "Fables, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0040",
+  "title": "Æsop's Fables, Embellished with One Hundred and Eleven Emblematical Devices.",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aesop",
+    "name": "Aesop",
+    "birth_year": -621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -591,
+  "subjects": [
+   "Conduct of life",
+   "Children's stories",
+   "Fables"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0041",
+  "title": "Chinese literature",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_confucius",
+    "name": "Confucius",
+    "birth_year": -552,
+    "bio": null
+   },
+   {
+    "id": "a_faxian",
+    "name": "Faxian",
+    "birth_year": 337,
+    "bio": null
+   },
+   {
+    "id": "a_mencius",
+    "name": "Mencius",
+    "birth_year": -373,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -522,
+  "subjects": [
+   "Chinese literature",
+   "China"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0042",
+  "title": "The Analects of Confucius (from the Chinese Classics)",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_confucius",
+    "name": "Confucius",
+    "birth_year": -552,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -522,
+  "subjects": [
+   "Ethics",
+   "Philosophy, Chinese"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0043",
+  "title": "The book of filial duty",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_confucius",
+    "name": "Confucius",
+    "birth_year": -552,
+    "bio": null
+   },
+   {
+    "id": "a_zengzi",
+    "name": "Zengzi",
+    "birth_year": -506,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -522,
+  "subjects": [
+   "Filial piety"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0044",
+  "title": "The Sayings of Confucius",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_confucius",
+    "name": "Confucius",
+    "birth_year": -552,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -522,
+  "subjects": [
+   "Philosophy, Chinese",
+   "Confucianism"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0045",
+  "title": "The Sayings of Confucius A New Translation of the Greater Part of the Confucian Analects",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_confucius",
+    "name": "Confucius",
+    "birth_year": -552,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -522,
+  "subjects": [
+   "Ethics",
+   "Philosophy, Chinese"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0046",
+  "title": "The Wisdom of Confucius with Critical and Biographical Sketches",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_confucius",
+    "name": "Confucius",
+    "birth_year": -552,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -522,
+  "subjects": [
+   "Ethics",
+   "Philosophy, Chinese"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0047",
+  "title": "Aeschylus' Prometheus Bound and the Seven Against Thebes",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Prometheus (Greek deity)",
+   "Seven against Thebes (Greek mythology)",
+   "Polynices (Greek mythological figure)",
+   "Eteocles, King of Thebes (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0048",
+  "title": "Four Plays of Aeschylus",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Mythology, Greek",
+   "Aeschylus"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0049",
+  "title": "Specimens of Greek Tragedy — Aeschylus and Sophocles",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   },
+   {
+    "id": "a_sophocles",
+    "name": "Sophocles",
+    "birth_year": -496,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Greek drama (Tragedy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0050",
+  "title": "The Agamemnon of Aeschylus Translated into English Rhyming Verse with Explanatory Notes",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Agamemnon, King of Mycenae (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0051",
+  "title": "The House of Atreus; Being the Agamemnon, the Libation bearers, and the Furies",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Agamemnon, King of Mycenae (Mythological character)",
+   "Orestes, King of Argos (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0052",
+  "title": "The Lyrical Dramas of Aeschylus Translated into English Verse",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Mythology, Greek",
+   "Aeschylus"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0053",
+  "title": "Æschylos Tragedies and Fragments",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_aeschylus",
+    "name": "Aeschylus",
+    "birth_year": -526,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -496,
+  "subjects": [
+   "Mythology, Greek",
+   "Aeschylus"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0054",
+  "title": "The Extant Odes of Pindar Translated with Introduction and Short Notes by Ernest Myers",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_pindar",
+    "name": "Pindar",
+    "birth_year": -519,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -489,
+  "subjects": [
+   "Pindar",
+   "Laudatory poetry, Greek",
+   "Olympic games (Ancient)",
+   "Athletics",
+   "Mythology, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0055",
+  "title": "Oedipus King of Thebes Translated into English Rhyming Verse with Explanatory Notes",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_sophocles",
+    "name": "Sophocles",
+    "birth_year": -496,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -466,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Oedipus (Greek mythological figure)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0056",
+  "title": "Philoktetes",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_sophocles",
+    "name": "Sophocles",
+    "birth_year": -496,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -466,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Trojan War",
+   "Philoctetes (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0057",
+  "title": "Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_sophocles",
+    "name": "Sophocles",
+    "birth_year": -496,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -466,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Antigone (Mythological character)",
+   "Oedipus (Greek mythological figure)",
+   "Greek drama (Tragedy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0058",
+  "title": "The Philoctetes of Sophocles",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_sophocles",
+    "name": "Sophocles",
+    "birth_year": -496,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -466,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Trojan War",
+   "Philoctetes (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0059",
+  "title": "The Seven Plays in English Verse",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_sophocles",
+    "name": "Sophocles",
+    "birth_year": -496,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -466,
+  "subjects": [
+   "Mythology, Greek",
+   "Sophocles"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0060",
+  "title": "Alcestis",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Alcestis, Queen, consort of Admetus, King of Pherae"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0061",
+  "title": "An Account of Egypt",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_herodotus",
+    "name": "Herodotus",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Egypt"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0062",
+  "title": "Hecuba and other plays",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Hecuba, Queen of Troy",
+   "Euripides",
+   "Mythology, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0063",
+  "title": "Hippolytus; The Bacchae",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Euripides",
+   "Mythology, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0064",
+  "title": "Medea of Euripides",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Medea, consort of Aegeus, King of Athens (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0065",
+  "title": "Stories of the Persian wars",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_herodotus",
+    "name": "Herodotus",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0066",
+  "title": "The Bacchae of Euripides",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Dionysus (Greek deity)",
+   "Pentheus, King of Thebes (Mythological character)",
+   "Bacchantes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0067",
+  "title": "The Boys' and Girls' Herodotus Being Parts of the History of Herodotus, Edited for Boys and Girls",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_herodotus",
+    "name": "Herodotus",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "History, Ancient",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0068",
+  "title": "The Electra of Euripides Translated into English rhyming verse",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Electra (Greek mythological figure)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0069",
+  "title": "The History of Herodotus — Volume 1",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_herodotus",
+    "name": "Herodotus",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "History, Ancient",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0070",
+  "title": "The History of Herodotus — Volume 2",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_herodotus",
+    "name": "Herodotus",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "History, Ancient",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0071",
+  "title": "The Iphigenia in Tauris of Euripides",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Iphigenia (Mythological character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0072",
+  "title": "The Rhesus of Euripides",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Rhesus (Legendary character)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0073",
+  "title": "The Tragedies of Euripides, Volume I.",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Euripides",
+   "Mythology, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0074",
+  "title": "The Trojan women of Euripides",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_euripides",
+    "name": "Euripides",
+    "birth_year": -481,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -451,
+  "subjects": [
+   "Trojan War",
+   "Andromache (Legendary character)",
+   "Hecuba, Queen of Troy",
+   "Cassandra (Legendary character)",
+   "Helen, of Troy, Queen of Sparta"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0075",
+  "title": "The genuine works of Hippocrates, Vol. 1 (of 2)",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_hippocrates",
+    "name": "Hippocrates",
+    "birth_year": -461,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -431,
+  "subjects": [
+   "Medicine",
+   "Medicine, Greek and Roman"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0076",
+  "title": "Stories from Thucydides",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_thucydides",
+    "name": "Thucydides",
+    "birth_year": -456,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -426,
+  "subjects": [
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0077",
+  "title": "The History of the Peloponnesian War",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_thucydides",
+    "name": "Thucydides",
+    "birth_year": -456,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -426,
+  "subjects": [
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0078",
+  "title": "Lysistrata",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Lysistrata (Fictitious character)",
+   "Peace movements",
+   "Women and peace"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0079",
+  "title": "Peace",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Greece",
+   "Peace treaties",
+   "Aristophanes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0080",
+  "title": "The Acharnians",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Athens (Greece)",
+   "Peace treaties",
+   "Aristophanes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0081",
+  "title": "The Birds",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Birds",
+   "Athens (Greece)",
+   "Gods, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0082",
+  "title": "The Eleven Comedies, Volume 1",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Athens (Greece)",
+   "Aristophanes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0083",
+  "title": "The Eleven Comedies, Volume 2",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Athens (Greece)",
+   "Aristophanes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0084",
+  "title": "The Frogs",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_aristophanes",
+    "name": "Aristophanes",
+    "birth_year": -447,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -417,
+  "subjects": [
+   "Comedy plays",
+   "Greek drama (Comedy)",
+   "Voyages to the otherworld",
+   "Dionysus (Greek deity)",
+   "Playwriting"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0085",
+  "title": "The Orations of Lysias",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_lysias",
+    "name": "Lysias",
+    "birth_year": -441,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -411,
+  "subjects": [
+   "Speeches, addresses, etc., Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0086",
+  "title": "Agesilaus",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Greece",
+   "Agesilaus II, King of Sparta"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0087",
+  "title": "Anabasis",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Iran",
+   "Cyrus, the Younger, approximately 423 B.C.-401 B.C.",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0088",
+  "title": "Cyropaedia: The Education of Cyrus",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Biographical fiction",
+   "Cyrus, King of Persia, -529 B.C.",
+   "Education of princes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0089",
+  "title": "Hellenica",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0090",
+  "title": "Hiero",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Hieron I, Tyrant of Syracuse, -467 B.C. or 466 B.C.",
+   "Simonides, approximately 556 B.C.-467 B.C.",
+   "Dialogues, Greek",
+   "Despotism"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0091",
+  "title": "On Horsemanship",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Horsemanship",
+   "Horses"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0092",
+  "title": "On Revenues",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Finance, Public",
+   "Revenue"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0093",
+  "title": "The Apology",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Socrates, 470 BC-399 BC"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0094",
+  "title": "The Cavalry General",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Cavalry",
+   "Military art and science"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0095",
+  "title": "The Economist",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Dialogues, Greek",
+   "Administration of estates",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0096",
+  "title": "The First Four Books of Xenophon's Anabasis",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Iran",
+   "Cyrus, the Younger, approximately 423 B.C.-401 B.C."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0097",
+  "title": "The Memorabilia",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Socrates",
+   "Philosophers, Ancient"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0098",
+  "title": "The Memorable Thoughts of Socrates",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Socrates, 470 BC-399 BC"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0099",
+  "title": "The Polity of the Athenians and the Lacedaemonians",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0100",
+  "title": "The Project Gutenberg Works of Xenophon: An Index",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Indexes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0101",
+  "title": "The Sportsman: On Hunting, a Sportsman's Manual, Commonly Called Cynegeticus",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Sportsmanship"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0102",
+  "title": "The Symposium",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_xenophon",
+    "name": "Xenophon",
+    "birth_year": -432,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -402,
+  "subjects": [
+   "Classical literature",
+   "Socrates, 470 BC-399 BC",
+   "Philosophy, Ancient"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0103",
+  "title": "Apology",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Socrates, 470 BC-399 BC",
+   "Philosophy, Ancient"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0104",
+  "title": "Apology, Crito, and Phaedo of Socrates",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Socrates, 470 BC-399 BC"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0105",
+  "title": "Charmides",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Socrates, 470 BC-399 BC",
+   "Ethics",
+   "Knowledge, Theory of",
+   "Temperance"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0106",
+  "title": "Cratylus",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Language and languages"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0107",
+  "title": "Critias",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0108",
+  "title": "Crito",
+  "incipit": null,
+  "genre": "philosophy",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Philosophy, Ancient",
+   "Justice",
+   "Dialogues, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0111",
+  "title": "Gorgias",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Political science",
+   "Ethics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0114",
+  "title": "Laws",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Political science",
+   "State, The"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0116",
+  "title": "Menexenus",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Rhetoric, Ancient",
+   "Rhetoric"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0120",
+  "title": "Phaedrus",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Socrates, 470 BC-399 BC",
+   "Rhetoric",
+   "Love",
+   "Rhetoric, Ancient"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0124",
+  "title": "Statesman",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Classical literature",
+   "Political science"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0128",
+  "title": "The Republic of Plato",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_plato",
+    "name": "Plato",
+    "birth_year": -428,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -398,
+  "subjects": [
+   "Political science",
+   "Utopias",
+   "Justice"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0133",
+  "title": "Aristotle on the art of poetry",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_aristotle",
+    "name": "Aristotle",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Poetry",
+   "Aesthetics",
+   "Music"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0134",
+  "title": "Aristotle's History of Animals In Ten Books",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_aristotle",
+    "name": "Aristotle",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Zoology"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0135",
+  "title": "Politics: A Treatise on Government",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_aristotle",
+    "name": "Aristotle",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Political science"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0136",
+  "title": "The Athenian Constitution",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_aristotle",
+    "name": "Aristotle",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Classical literature",
+   "Constitutional history",
+   "Athens (Greece)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0139",
+  "title": "The Olynthiacs and the Phillippics of Demosthenes Literally translated with notes",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_demosthenes",
+    "name": "Demosthenes",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Athens (Greece)",
+   "Demosthenes",
+   "Speeches, addresses, etc., Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0140",
+  "title": "The Poetics of Aristotle",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_aristotle",
+    "name": "Aristotle",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Poetry",
+   "Aesthetics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0141",
+  "title": "The Public Orations of Demosthenes, volume 1",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_demosthenes",
+    "name": "Demosthenes",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Athens (Greece)",
+   "Demosthenes",
+   "Speeches, addresses, etc., Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0142",
+  "title": "The Public Orations of Demosthenes, volume 2",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_demosthenes",
+    "name": "Demosthenes",
+    "birth_year": -385,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -355,
+  "subjects": [
+   "Athens (Greece)",
+   "Demosthenes",
+   "Speeches, addresses, etc., Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0143",
+  "title": "The Characters of Theophrastus A Translation, with Introduction",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_theophrastus",
+    "name": "Theophrastus",
+    "birth_year": -370,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -340,
+  "subjects": [
+   "Character sketches"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0144",
+  "title": "Theocritus, Bion and Moschus, Rendered into English Prose",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_theocritus",
+    "name": "Theocritus",
+    "birth_year": -301,
+    "bio": null
+   },
+   {
+    "id": "a_of_phlossa_near_smyrna_bion",
+    "name": "of Phlossa near Smyrna Bion",
+    "birth_year": null,
+    "bio": null
+   },
+   {
+    "id": "a_moschus",
+    "name": "Moschus",
+    "birth_year": null,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -271,
+  "subjects": [
+   "Pastoral poetry, Greek",
+   "Greek poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0145",
+  "title": "Theocritus, translated into English Verse",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_theocritus",
+    "name": "Theocritus",
+    "birth_year": -301,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -271,
+  "subjects": [
+   "Country life",
+   "Pastoral poetry, Greek",
+   "City and town life",
+   "Alexandria (Egypt)",
+   "Mediterranean Region"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0146",
+  "title": "Geometrical Solutions Derived from Mechanics; a Treatise of Archimedes",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_archimedes",
+    "name": "Archimedes",
+    "birth_year": -281,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -251,
+  "subjects": [
+   "Geometry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0147",
+  "title": "Amphitryo, Asinaria, Aulularia, Bacchides, Captivi Amphitryon, The Comedy of Asses, The Pot of Gold, The Two Bacchises, The Captives",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_titus_maccius_plautus",
+    "name": "Titus Maccius Plautus",
+    "birth_year": -255,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -225,
+  "subjects": [
+   "Latin drama (Comedy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0148",
+  "title": "The Captivi and the Mostellaria",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_titus_maccius_plautus",
+    "name": "Titus Maccius Plautus",
+    "birth_year": -255,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -225,
+  "subjects": [
+   "Latin drama (Comedy)",
+   "Plautus, Titus Maccius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0149",
+  "title": "Roman Farm Management: The Treatises of Cato and Varro",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_marcus_porcius_cato",
+    "name": "Marcus Porcius Cato",
+    "birth_year": -235,
+    "bio": null
+   },
+   {
+    "id": "a_marcus_terentius_varro",
+    "name": "Marcus Terentius Varro",
+    "birth_year": -117,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -205,
+  "subjects": [
+   "Agriculture",
+   "Farm management"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0152",
+  "title": "Cicero's Brutus or History of Famous Orators; also His Orator, or Accomplished Speaker.",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Oratory"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0153",
+  "title": "Cicero's Tusculan Disputations Also, Treatises On The Nature Of The Gods, And On The Commonwealth",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Theology",
+   "Political science",
+   "State, The",
+   "Happiness",
+   "Gods, Roman"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0154",
+  "title": "Cicero: Letters to Atticus, Vol. 1 of 3",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Latin letters",
+   "Cicero, Marcus Tullius",
+   "Statesmen",
+   "Authors, Latin",
+   "Atticus, Titus Pomponius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0155",
+  "title": "Cicero: Letters to Atticus, Vol. 2 of 3",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Latin letters",
+   "Cicero, Marcus Tullius",
+   "Statesmen",
+   "Authors, Latin",
+   "Atticus, Titus Pomponius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0156",
+  "title": "Cicero: Letters to Atticus, Vol. 3 of 3",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Latin letters",
+   "Cicero, Marcus Tullius",
+   "Statesmen",
+   "Authors, Latin",
+   "Atticus, Titus Pomponius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0159",
+  "title": "Letters of Marcus Tullius Cicero",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Cicero, Marcus Tullius",
+   "Statesmen",
+   "Authors, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0160",
+  "title": "Speeches against Catilina",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Speeches, addresses, etc., Latin",
+   "Latin language",
+   "Rome",
+   "Catiline, approximately 108 B.C.-62 B.C."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0162",
+  "title": "The Letters of Cicero, Volume 1 The Whole Extant Correspodence in Chronological Order",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Cicero, Marcus Tullius",
+   "Statesmen",
+   "Authors, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0163",
+  "title": "The Orations of Marcus Tullius Cicero, Volume 4",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Speeches, addresses, etc., Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0164",
+  "title": "The republic of Cicero Translated from the Latin; and Accompanied With a Critical and Historical Introduction.",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_marcus_tullius_cicero",
+    "name": "Marcus Tullius Cicero",
+    "birth_year": -107,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -77,
+  "subjects": [
+   "Political science",
+   "State, The"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0166",
+  "title": "\"De Bello Gallico\" and Other Commentaries",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_julius_caesar",
+    "name": "Julius Caesar",
+    "birth_year": -100,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -70,
+  "subjects": [
+   "Gaul",
+   "Rome"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0169",
+  "title": "C. Sallusti Crispi De Bello Catilinario Et Jugurthino",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_sallust",
+    "name": "Sallust",
+    "birth_year": -87,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -57,
+  "subjects": [
+   "Rome",
+   "Jugurthine War, 111-105 B.C."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0170",
+  "title": "Conspiracy of Catiline and the Jurgurthine War",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_sallust",
+    "name": "Sallust",
+    "birth_year": -87,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -57,
+  "subjects": [
+   "Rome",
+   "Jugurthine War, 111-105 B.C."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0171",
+  "title": "The Carmina of Caius Valerius Catullus",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_gaius_valerius_catullus",
+    "name": "Gaius Valerius Catullus",
+    "birth_year": -84,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -54,
+  "subjects": [
+   "Catullus, Gaius Valerius",
+   "Elegiac poetry, Latin",
+   "Love poetry, Latin",
+   "Epigrams, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0172",
+  "title": "The Poems and Fragments of Catullus Translated in the Metres of the Original",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_gaius_valerius_catullus",
+    "name": "Gaius Valerius Catullus",
+    "birth_year": -84,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -54,
+  "subjects": [
+   "Rome",
+   "Catullus, Gaius Valerius",
+   "Love poetry, Latin",
+   "Epigrams, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0173",
+  "title": "The Aeneid",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Aeneas (Legendary character)",
+   "Legends",
+   "Epic poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0174",
+  "title": "The Aeneid of Virgil",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Aeneas (Legendary character)",
+   "Epic poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0175",
+  "title": "The Bucolics and Eclogues",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Pastoral poetry, Latin",
+   "Country life"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0176",
+  "title": "The Fourth Book of Virgil's Aeneid and the Ninth Book of Voltaire's Henriad",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   },
+   {
+    "id": "a_voltaire",
+    "name": "Voltaire",
+    "birth_year": 1694,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Virgil. Aeneis",
+   "Voltaire, 1694-1778. Henriade"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0177",
+  "title": "The Georgics",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Agriculture",
+   "Didactic poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0178",
+  "title": "The Æneid of Virgil translated into English prose",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Epic poetry, Latin",
+   "Aeneas (Legendary character)",
+   "Legends"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0179",
+  "title": "The Æneid of Virgil, Translated into English Verse",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Aeneas (Legendary character)",
+   "Epic poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0180",
+  "title": "The Æneids of Virgil, Done into English Verse",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Aeneas (Legendary character)",
+   "Epic poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0181",
+  "title": "Two Dramatizations from Vergil: I. Dido—the Phœnecian Queen; II. The Fall of Troy",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Trojan War",
+   "Dido (Legendary character)",
+   "Virgil",
+   "Epic poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0182",
+  "title": "Virgil & Lucretius Passages translated by William Stebbing",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_virgil",
+    "name": "Virgil",
+    "birth_year": -71,
+    "bio": null
+   },
+   {
+    "id": "a_titus_lucretius_carus",
+    "name": "Titus Lucretius Carus",
+    "birth_year": -95,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -41,
+  "subjects": [
+   "Latin poetry",
+   "Virgil",
+   "Lucretius Carus, Titus"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0183",
+  "title": "Echoes from the Sabine Farm",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_horace",
+    "name": "Horace",
+    "birth_year": -66,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -36,
+  "subjects": [
+   "Horace"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0184",
+  "title": "The Art of Poetry: an Epistle to the Pisos Q. Horatii Flacci Epistola Ad Pisones, De Arte Poetica.",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_horace",
+    "name": "Horace",
+    "birth_year": -66,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -36,
+  "subjects": [
+   "Aesthetics",
+   "Didactic poetry, Latin",
+   "Epistolary poetry, Latin",
+   "Criticism",
+   "Poetics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0185",
+  "title": "The Odes and Carmen Saeculare of Horace",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_horace",
+    "name": "Horace",
+    "birth_year": -66,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -36,
+  "subjects": [
+   "Horace",
+   "Laudatory poetry, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0186",
+  "title": "The Satires, Epistles, and Art of Poetry of Horace",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_horace",
+    "name": "Horace",
+    "birth_year": -66,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -36,
+  "subjects": [
+   "Horace",
+   "Rome",
+   "Epistolary poetry, Latin",
+   "Verse satire, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0187",
+  "title": "The Works of Horace",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_horace",
+    "name": "Horace",
+    "birth_year": -66,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -36,
+  "subjects": [
+   "Latin poetry",
+   "Horace"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0188",
+  "title": "Monumentum Ancyranum: The Deeds of Augustus",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_emperor_of_rome_augustus",
+    "name": "Emperor of Rome Augustus",
+    "birth_year": -64,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -34,
+  "subjects": [
+   "Augustus, Emperor of Rome, 63 B.C.-14 A.D.",
+   "Rome"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0189",
+  "title": "Nicolaus of Damascus' life of Augustus",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_of_damascus_nicolaus",
+    "name": "of Damascus Nicolaus",
+    "birth_year": -64,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -34,
+  "subjects": [
+   "Thesis (Ph. D.)",
+   "Emperors",
+   "Augustus, Emperor of Rome, 63 B.C.-14 A.D."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0190",
+  "title": "Roman History, Books I-III",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_livy",
+    "name": "Livy",
+    "birth_year": -59,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -29,
+  "subjects": [
+   "Rome"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0191",
+  "title": "The History of Rome, Books 01 to 08",
+  "incipit": null,
+  "genre": "history",
+  "authors": [
+   {
+    "id": "a_livy",
+    "name": "Livy",
+    "birth_year": -59,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -29,
+  "subjects": [
+   "Rome"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0195",
+  "title": "The Elegies of Tibullus Being the Consolations of a Roman Lover Done in English Verse",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_tibullus",
+    "name": "Tibullus",
+    "birth_year": -55,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -25,
+  "subjects": [
+   "Elegiac poetry, Latin",
+   "Tibullus"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0196",
+  "title": "Ars Amatoria; or, The Art Of Love Literally Translated into English Prose, with Copious Notes",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Latin poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0197",
+  "title": "Remedia Amoris; or, The Remedy of Love Literally Translated into English Prose, with Copious Notes",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Latin poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0198",
+  "title": "The Amores; or, Amours Literally Translated into English Prose, with Copious Notes",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Latin poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0199",
+  "title": "The Last Poems of Ovid",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Latin poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0200",
+  "title": "The Metamorphoses of Ovid, Books I-VII",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Classical literature",
+   "Latin poetry",
+   "Fables, Latin",
+   "Metamorphosis",
+   "Mythology, Classical"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0201",
+  "title": "The Metamorphoses of Ovid, Books VIII-XV",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Classical literature",
+   "Latin poetry",
+   "Fables, Latin",
+   "Metamorphosis",
+   "Mythology, Classical"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0202",
+  "title": "The Metamorphoses of Publius Ovidus Naso in English blank verse Vols. I & II",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_ovid",
+    "name": "Ovid",
+    "birth_year": -44,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": -14,
+  "subjects": [
+   "Classical literature",
+   "Latin poetry",
+   "Fables, Latin",
+   "Metamorphosis",
+   "Mythology, Classical"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0203",
+  "title": "Of Medicine, in Eight Books",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_aulus_cornelius_celsus",
+    "name": "Aulus Cornelius Celsus",
+    "birth_year": -26,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 4,
+  "subjects": [
+   "Medicine, Greek and Roman"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0204",
+  "title": "Apocolocyntosis",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_lucius_annaeus_seneca",
+    "name": "Lucius Annaeus Seneca",
+    "birth_year": -5,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 25,
+  "subjects": [
+   "Claudius, Emperor of Rome, 10 B.C.-54 A.D."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0205",
+  "title": "Index of the Project Gutenberg Works of Lucius Annaeus Seneca",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_lucius_annaeus_seneca",
+    "name": "Lucius Annaeus Seneca",
+    "birth_year": -5,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 25,
+  "subjects": [
+   "Indexes"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0207",
+  "title": "Minor Dialogues, Together With the Dialogue on Clemency",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_lucius_annaeus_seneca",
+    "name": "Lucius Annaeus Seneca",
+    "birth_year": -5,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 25,
+  "subjects": [
+   "Political ethics",
+   "Education of princes",
+   "Mercy",
+   "Latin prose literature"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0210",
+  "title": "The Tragedies of Seneca Translated into English Verse, to Which Have Been Appended Comparative Analyses of the Corresponding Greek and Roman Plays, and a Mythological Index",
+  "incipit": null,
+  "genre": "miscellany",
+  "authors": [
+   {
+    "id": "a_lucius_annaeus_seneca",
+    "name": "Lucius Annaeus Seneca",
+    "birth_year": -5,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 25,
+  "subjects": [
+   "Mythology, Classical",
+   "Seneca, Lucius Annaeus, approximately 4 B.C.-65 A.D."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0221",
+  "title": "The Boys' and Girls' Pliny Being parts of Pliny's \"Natural History\" edited for boys and girls, with an Introduction",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history",
+   "Animals",
+   "Physical sciences"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0222",
+  "title": "The Natural History of Pliny, Volume 1 (of 6)",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0223",
+  "title": "The Natural History of Pliny, Volume 2 (of 6)",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0224",
+  "title": "The Natural History of Pliny, Volume 3 (of 6)",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0225",
+  "title": "The Natural History of Pliny, Volume 4 (of 6)",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0226",
+  "title": "The Natural History of Pliny, Volume 5 (of 6)",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0227",
+  "title": "The Natural History of Pliny, Volume 6 (of 6)",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_the_elder_pliny",
+    "name": "the Elder Pliny",
+    "birth_year": 24,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 54,
+  "subjects": [
+   "Natural history"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0235",
+  "title": "Pharsalia; Dramatic Episodes of the Civil Wars",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_lucan",
+    "name": "Lucan",
+    "birth_year": 39,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 69,
+  "subjects": [
+   "Epic poetry, Latin",
+   "Rome",
+   "Pharsalus, Battle of, Farsala, Greece, 48 B.C."
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0236",
+  "title": "Complete Works of Plutarch — Volume 3: Essays and Miscellanies",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_plutarch",
+    "name": "Plutarch",
+    "birth_year": 46,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 76,
+  "subjects": [
+   "Classical literature",
+   "Essays",
+   "Philosophy",
+   "Ethics",
+   "Homer"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0247",
+  "title": "Plutarch's Morals",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_plutarch",
+    "name": "Plutarch",
+    "birth_year": 46,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 76,
+  "subjects": [
+   "Ethics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0250",
+  "title": "Selected Essays of Plutarch, Vol. I.",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_plutarch",
+    "name": "Plutarch",
+    "birth_year": 46,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 76,
+  "subjects": [
+   "Ethics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0251",
+  "title": "Selected Essays of Plutarch, Vol. II.",
+  "incipit": null,
+  "genre": "rhetoric",
+  "authors": [
+   {
+    "id": "a_plutarch",
+    "name": "Plutarch",
+    "birth_year": 46,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 76,
+  "subjects": [
+   "Ethics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0285",
+  "title": "Lucian's True History",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_of_samosata_lucian",
+    "name": "of Samosata Lucian",
+    "birth_year": 120,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 150,
+  "subjects": [
+   "Voyages, Imaginary",
+   "Satire, Greek"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0287",
+  "title": "The Works of Lucian of Samosata — Volume 02",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_of_samosata_lucian",
+    "name": "of Samosata Lucian",
+    "birth_year": 120,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 150,
+  "subjects": [
+   "Lucian, of Samosata"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0290",
+  "title": "Trips to the Moon",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_of_samosata_lucian",
+    "name": "of Samosata Lucian",
+    "birth_year": 120,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 150,
+  "subjects": [
+   "Voyages, Imaginary",
+   "Lucian, of Samosata"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0308",
+  "title": "The Apostolic Tradition of Hippolytus Translated into English with Introduction and Notes",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_antipope_hippolytus",
+    "name": "Antipope Hippolytus",
+    "birth_year": 170,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 200,
+  "subjects": [
+   "Canon law",
+   "Church orders, Ancient"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0324",
+  "title": "The Hymns of Prudentius",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_prudentius",
+    "name": "Prudentius",
+    "birth_year": 348,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 378,
+  "subjects": [
+   "Prudentius, 348-",
+   "Christian poetry, Latin",
+   "Hymns, Latin"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0331",
+  "title": "Claudian, volume 1 (of 2) With an English translation by Maurice Platnauer",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_claudius_claudianus",
+    "name": "Claudius Claudianus",
+    "birth_year": 370,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 400,
+  "subjects": [
+   "Claudianus, Claudius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0332",
+  "title": "Claudian, volume 2 (of 2) With an English translation by Maurice Platnauer",
+  "incipit": null,
+  "genre": "lyric",
+  "authors": [
+   {
+    "id": "a_claudius_claudianus",
+    "name": "Claudius Claudianus",
+    "birth_year": 370,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 400,
+  "subjects": [
+   "Claudianus, Claudius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0334",
+  "title": "The philosophical and mathematical commentaries of Proclus on the first book of Euclid's elements (Vol. 1 of 2)",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_proclus",
+    "name": "Proclus",
+    "birth_year": 412,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 442,
+  "subjects": [
+   "Euclid. Elements",
+   "Platonists"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0345",
+  "title": "The seven books of Paulus Ægineta, volume 1 (of 3)",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_aegineta_paulus",
+    "name": "Aegineta Paulus",
+    "birth_year": 625,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 655,
+  "subjects": [
+   "Medicine",
+   "Medicine, Greek and Roman",
+   "Medicine, Arab"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0346",
+  "title": "The seven books of Paulus Ægineta, volume 2 (of 3)",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_aegineta_paulus",
+    "name": "Aegineta Paulus",
+    "birth_year": 625,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 655,
+  "subjects": [
+   "Medicine",
+   "Medicine, Greek and Roman",
+   "Medicine, Arab"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0347",
+  "title": "The seven books of Paulus Ægineta, volume 3 (of 3)",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_aegineta_paulus",
+    "name": "Aegineta Paulus",
+    "birth_year": 625,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 655,
+  "subjects": [
+   "Medicine",
+   "Medicine, Greek and Roman",
+   "Medicine, Arab"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0385",
+  "title": "A translation of Glanville",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_ranulf_de_glanville",
+    "name": "Ranulf de Glanville",
+    "birth_year": 1130,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1160,
+  "subjects": [
+   "Law",
+   "Law, Medieval"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0402",
+  "title": "The Mirror of Alchimy",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_roger_bacon",
+    "name": "Roger Bacon",
+    "birth_year": 1214,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1244,
+  "subjects": [
+   "Occultism",
+   "Alchemy"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0417",
+  "title": "Divine Comedy, Cary's Translation, Complete",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0418",
+  "title": "Divine Comedy, Cary's Translation, Hell",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Hell",
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0419",
+  "title": "Divine Comedy, Cary's Translation, Paradise",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0420",
+  "title": "Divine Comedy, Cary's Translation, Purgatory",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0421",
+  "title": "Divine Comedy, Longfellow's Translation, Complete",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0422",
+  "title": "Divine Comedy, Longfellow's Translation, Hell",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Hell",
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0423",
+  "title": "Divine Comedy, Longfellow's Translation, Paradise",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0424",
+  "title": "Divine Comedy, Longfellow's Translation, Purgatory",
+  "incipit": null,
+  "genre": "epic",
+  "authors": [
+   {
+    "id": "a_dante_alighieri",
+    "name": "Dante Alighieri",
+    "birth_year": 1265,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1295,
+  "subjects": [
+   "Epic poetry, Italian",
+   "Italian poetry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0496",
+  "title": "The Disguising at Hertford",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_john_lydgate",
+    "name": "John Lydgate",
+    "birth_year": 1370,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1400,
+  "subjects": [
+   "Comedy",
+   "Marriage",
+   "England"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0534",
+  "title": "Thoughts on Art and Life",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_da_vinci_leonardo",
+    "name": "da Vinci Leonardo",
+    "birth_year": 1452,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1482,
+  "subjects": [
+   "Science",
+   "Aesthetics",
+   "Life"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0544",
+  "title": "Discourses on the First Decade of Titus Livius",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_niccolo_machiavelli",
+    "name": "Niccolò Machiavelli",
+    "birth_year": 1469,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1499,
+  "subjects": [
+   "Political science",
+   "Livy. Ab urbe condita",
+   "Rome"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0548",
+  "title": "Machiavelli, Volume I",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_niccolo_machiavelli",
+    "name": "Niccolò Machiavelli",
+    "birth_year": 1469,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1499,
+  "subjects": [
+   "Florence (Italy)",
+   "Military art and science",
+   "Political science",
+   "Political ethics",
+   "War"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0554",
+  "title": "The Prince",
+  "incipit": null,
+  "genre": "science",
+  "authors": [
+   {
+    "id": "a_niccolo_machiavelli",
+    "name": "Niccolò Machiavelli",
+    "birth_year": 1469,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1499,
+  "subjects": [
+   "State, The",
+   "Political science",
+   "Political ethics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0559",
+  "title": "Of the Just Shaping of Letters",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_albrecht_durer",
+    "name": "Albrecht Dürer",
+    "birth_year": 1471,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1501,
+  "subjects": [
+   "Lettering",
+   "Alphabets",
+   "Roman capitals (Lettering)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0562",
+  "title": "Discourses on a Sober and Temperate Life Wherein Is Demonstrated, by His Own Example, the Method of Preserving Health to Extreme Old Age",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_luigi_cornaro",
+    "name": "Luigi Cornaro",
+    "birth_year": 1475,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1505,
+  "subjects": [
+   "Cornaro, Luigi, 1475-1566",
+   "Health",
+   "Longevity"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0626",
+  "title": "Introduction to Anatomy, 1532 With English translation and an introductory essay on anatomical studies in Tudor England by C.D. O'Malley and K.F. Russell.",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_david_edguard",
+    "name": "David Edguard",
+    "birth_year": 1502,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1532,
+  "subjects": [
+   "Human anatomy",
+   "Anatomy"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0633",
+  "title": "Roister Doister Written, probably also represented, before 1553. Carefully edited from the unique copy, now at Eton College",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_nicholas_udall",
+    "name": "Nicholas Udall",
+    "birth_year": 1505,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1535,
+  "subjects": [
+   "English drama (Comedy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0643",
+  "title": "The Path-Way to Knowledg, Containing the First Principles of Geometrie",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_robert_record",
+    "name": "Robert Record",
+    "birth_year": 1510,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1540,
+  "subjects": [
+   "Geometry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0644",
+  "title": "The Sweating Sickness A boke or counseill against the disease commonly called the sweate or sweatyng sicknesse",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_john_caius",
+    "name": "John Caius",
+    "birth_year": 1510,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1540,
+  "subjects": [
+   "Medicine",
+   "Sweating-sickness"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0658",
+  "title": "The Frugal Life: A Paradox",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_ortensio_landi",
+    "name": "Ortensio Landi",
+    "birth_year": 1512,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1542,
+  "subjects": [
+   "Diet"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0665",
+  "title": "The Way To Geometry",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_petrus_ramus",
+    "name": "Petrus Ramus",
+    "birth_year": 1515,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1545,
+  "subjects": [
+   "Geometry",
+   "Mathematics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0688",
+  "title": "The Mathematicall Praeface to Elements of Geometrie of Euclid of Megara",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_john_dee",
+    "name": "John Dee",
+    "birth_year": 1527,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1557,
+  "subjects": [
+   "Geometry",
+   "Philosophy",
+   "Mathematics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0834",
+  "title": "The Spanish Tragedie",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_thomas_kyd",
+    "name": "Thomas Kyd",
+    "birth_year": 1558,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1588,
+  "subjects": [
+   "English drama",
+   "Tragedies (Drama)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0835",
+  "title": "The Spanish Tragedy",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_thomas_kyd",
+    "name": "Thomas Kyd",
+    "birth_year": 1558,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1588,
+  "subjects": [
+   "English drama",
+   "Tragedies (Drama)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0839",
+  "title": "Bussy D'Ambois and The Revenge of Bussy D'Ambois",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_george_chapman",
+    "name": "George Chapman",
+    "birth_year": 1559,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1589,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Revenge",
+   "English drama",
+   "Bussy d'Amboise, 1549?-1579"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0863",
+  "title": "A Fairy Tale in Two Acts Taken from Shakespeare (1763)",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   },
+   {
+    "id": "a_george_colman",
+    "name": "George Colman",
+    "birth_year": 1732,
+    "bio": null
+   },
+   {
+    "id": "a_david_garrick",
+    "name": "David Garrick",
+    "birth_year": 1717,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Athens (Greece)",
+   "Fairy plays"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0865",
+  "title": "A Midsummer Night's Dream",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Courtship",
+   "Athens (Greece)",
+   "Fairy plays"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0866",
+  "title": "All's Well That Ends Well",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Married women",
+   "Runaway husbands",
+   "Florence (Italy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0867",
+  "title": "Antony and Cleopatra",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Generals",
+   "Queens",
+   "Antonius, Marcus, 83 B.C.?-30 B.C.",
+   "Cleopatra, Queen of Egypt, -30 B.C.",
+   "Tragedies (Drama)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0868",
+  "title": "As You Like It",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Fathers and daughters",
+   "Exiles",
+   "Pastoral drama"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0869",
+  "title": "Coriolanus",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Generals",
+   "Rome",
+   "Coriolanus, Cnaeus Marcius"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0870",
+  "title": "Cymbeline",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Fathers and daughters",
+   "Married people",
+   "Great Britain",
+   "Britons",
+   "Tragicomedy"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0873",
+  "title": "Hamlet",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Hamlet (Legendary character)",
+   "Kings and rulers",
+   "Murder victims' families",
+   "Fathers"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0874",
+  "title": "Hamlet A Study with the Text of the Folio of 1623",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Hamlet (Legendary character)",
+   "Kings and rulers",
+   "Murder victims' families",
+   "Fathers"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0875",
+  "title": "Hamlet The First ('Bad') Quarto",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Hamlet (Legendary character)",
+   "Kings and rulers",
+   "Murder victims' families",
+   "Fathers"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0878",
+  "title": "Julius Caesar",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Conspiracies",
+   "Brutus, Marcus Junius, 85 B.C.?-42 B.C.",
+   "Caesar, Julius",
+   "Assassins"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0888",
+  "title": "King Lear",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Fathers and daughters",
+   "Inheritance and succession",
+   "Lear, King (Legendary character)",
+   "Britons"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0889",
+  "title": "King Richard II",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Richard II, King of England, 1367-1400",
+   "Tragedies (Drama)",
+   "Historical drama",
+   "Great Britain"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0890",
+  "title": "King Richard III",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Great Britain",
+   "Richard III, King of England, 1452-1485",
+   "Tragedies (Drama)",
+   "Historical drama"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0891",
+  "title": "Love's Labour's Lost",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Courts and courtiers",
+   "Princesses",
+   "Navarre (Kingdom)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0892",
+  "title": "Macbeth",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Regicides",
+   "Macbeth, King of Scotland, active 11th century",
+   "Scotland"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0893",
+  "title": "Massacre at Paris",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_christopher_marlowe",
+    "name": "Christopher Marlowe",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Guise, Henri, duc de, 1550-1588",
+   "Saint Bartholomew's Day, Massacre of, France, 1572",
+   "Tragedies (Drama)",
+   "Historical drama"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0894",
+  "title": "Measure for Measure",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Siblings",
+   "Chastity",
+   "Vienna (Austria)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0895",
+  "title": "Measure for Measure The Works of William Shakespeare [Cambridge Edition] [9 vols.]",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Siblings",
+   "Chastity",
+   "Vienna (Austria)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0896",
+  "title": "Much Ado about Nothing",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Rejection (Psychology)",
+   "Conspiracies",
+   "Courtship",
+   "Messina (Italy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0897",
+  "title": "Othello",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragedies (Drama)",
+   "Othello (Fictitious character)",
+   "Jealousy",
+   "Interracial marriage",
+   "Venice (Italy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0898",
+  "title": "Pericles, Prince of Tyre",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Tragicomedy",
+   "Princes",
+   "Tyre (Lebanon)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0901",
+  "title": "Shakespeare's play of the Merchant of Venice Arranged for Representation at the Princess's Theatre, with Historical and Explanatory Notes by Charles Kean, F.S.A.",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Jews",
+   "Moneylenders",
+   "Venice (Italy)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0905",
+  "title": "Tamburlaine the Great — Part 1",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_christopher_marlowe",
+    "name": "Christopher Marlowe",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Timur, 1336-1405",
+   "English drama",
+   "Tragedies (Drama)",
+   "Historical drama"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0906",
+  "title": "Tamburlaine the Great — Part 2",
+  "incipit": null,
+  "genre": "tragedy",
+  "authors": [
+   {
+    "id": "a_christopher_marlowe",
+    "name": "Christopher Marlowe",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Timur, 1336-1405",
+   "English drama",
+   "Tragedies (Drama)",
+   "Historical drama"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0907",
+  "title": "The Comedy of Errors",
+  "incipit": null,
+  "genre": "comedy",
+  "authors": [
+   {
+    "id": "a_william_shakespeare",
+    "name": "William Shakespeare",
+    "birth_year": 1564,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1594,
+  "subjects": [
+   "Comedy plays",
+   "Shipwreck victims",
+   "Mistaken identity",
+   "Brothers",
+   "Greece"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_0959",
+  "title": "A Briefe Discovrse of a Disease called the Suffocation of the Mother",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_edward_jorden",
+    "name": "Edward Jorden",
+    "birth_year": 1569,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1599,
+  "subjects": [
+   "Hysteria",
+   "Uterus"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1012",
+  "title": "An anatomical disquisition on the motion of the heart & blood in animals",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_william_harvey",
+    "name": "William Harvey",
+    "birth_year": 1578,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1608,
+  "subjects": [
+   "Blood"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1014",
+  "title": "The Works of William Harvey M.D. Translated from the Latin with a life of the author",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_william_harvey",
+    "name": "William Harvey",
+    "birth_year": 1578,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1608,
+  "subjects": [
+   "Physiology",
+   "Blood",
+   "Embryology"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1034",
+  "title": "Spadacrene Anglica: The English Spa Fountain",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_edmund_deane",
+    "name": "Edmund Deane",
+    "birth_year": 1582,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1612,
+  "subjects": [
+   "Mineral waters",
+   "Health resorts"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1038",
+  "title": "The freedom of the seas",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_hugo_grotius",
+    "name": "Hugo Grotius",
+    "birth_year": 1583,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1613,
+  "subjects": [
+   "Freedom of the seas",
+   "Law of the sea"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1040",
+  "title": "The Rights of War and Peace",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_hugo_grotius",
+    "name": "Hugo Grotius",
+    "birth_year": 1583,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1613,
+  "subjects": [
+   "War (International law)",
+   "International law",
+   "Natural law"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1108",
+  "title": "A Treatise on Tobacco, Tea, Coffee, and Chocolate",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_simon_paulli",
+    "name": "Simon Paulli",
+    "birth_year": 1603,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1633,
+  "subjects": [
+   "Chocolate",
+   "Tobacco",
+   "Tea",
+   "Coffee"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1115",
+  "title": "The works of the highly experienced and famous chymist, John Rudolph Glauber",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_johann_rudolf_glauber",
+    "name": "Johann Rudolf Glauber",
+    "birth_year": 1604,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1634,
+  "subjects": [
+   "Chemistry",
+   "Alchemy",
+   "Medicine, Magic, mystic, and spagiric"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1163",
+  "title": "A Short View of the Frauds and Abuses Committed by Apothecaries As well in Relation to Patients, as Physicians: And Of the only Remedy thereof by Physicians making their own Medicines.",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_christopher_merret",
+    "name": "Christopher Merret",
+    "birth_year": 1614,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1644,
+  "subjects": [
+   "Pharmacists",
+   "Pharmacy"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1173",
+  "title": "The Complete Herbal To which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities physically applied to the cure of all disorders incident to mankind: to which are now first annexed, the English physician enlarged, and key to Physic.",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_nicholas_culpeper",
+    "name": "Nicholas Culpeper",
+    "birth_year": 1616,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1646,
+  "subjects": [
+   "Botany, Medical",
+   "Materia medica, Vegetable",
+   "Medicinal plants",
+   "Herbs"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1190",
+  "title": "A Plain and Easie Method for Preserving (by God's Blessing) Those That Are Well from the Infection of the Plague, or Any Contagious Distemper, in City, Camp, Fleet, Etc., and for Curing Such as Are Infected with It.",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_thomas_willis",
+    "name": "Thomas Willis",
+    "birth_year": 1621,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1651,
+  "subjects": [
+   "Plague"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1255",
+  "title": "Grounds of Natural Philosophy: Divided into Thirteen Parts The Second Edition, much altered from the First, which went under the Name of Philosophical and Physical Opinions",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_newcastle_margaret_cavendish_duchess_of",
+    "name": "Newcastle, Margaret Cavendish, Duchess of",
+    "birth_year": 1624,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1654,
+  "subjects": [
+   "Physics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1307",
+  "title": "Loimologia: Or, an Historical Account of the Plague in London in 1665 With Precautionary Directions Against the Like Contagion",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_nathaniel_hodges",
+    "name": "Nathaniel Hodges",
+    "birth_year": 1629,
+    "bio": null
+   },
+   {
+    "id": "a_quincy_john_1722",
+    "name": "Quincy, John, -1722",
+    "birth_year": null,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1659,
+  "subjects": [
+   "Plague"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1313",
+  "title": "New-England's rarities discovered",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_josselyn_john_active",
+    "name": "Josselyn, John, active",
+    "birth_year": 1630,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1660,
+  "subjects": [
+   "Indians of North America",
+   "Natural history",
+   "Materia medica"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1447",
+  "title": "A Treatise of Cleanness in Meats and Drinks, of the Preparation of Food, the Excellency of Good Airs, and the Benefits of Clean Sweet Beds. Also of the Generation of Bugs, and Their Cure. To Which Is Added, a Short Discourse of the Pain in the Teeth, Shewing What Cause It Does Chiefly Proceed, and Also How to Prevent It.",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_thomas_tryon",
+    "name": "Thomas Tryon",
+    "birth_year": 1634,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1664,
+  "subjects": [
+   "Hygiene",
+   "Teeth"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1471",
+  "title": "Campanalogia",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_fabian_stedman",
+    "name": "Fabian Stedman",
+    "birth_year": 1640,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1670,
+  "subjects": [
+   "Change ringing",
+   "Bells"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1495",
+  "title": "The anatomy of plants",
+  "incipit": null,
+  "genre": "medicine",
+  "authors": [
+   {
+    "id": "a_nehemiah_grew",
+    "name": "Nehemiah Grew",
+    "birth_year": 1641,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1671,
+  "subjects": [
+   "Chemistry",
+   "Plant anatomy",
+   "Botany"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1511",
+  "title": "Publications of the Scottish History Society, Volume 36 Journals of Sir John Lauder Lord Fountainhall with His Observations on Public Affairs and Other Memoranda 1665-1676",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_fountainhall_john_lauder_lord",
+    "name": "Fountainhall, John Lauder, Lord",
+    "birth_year": 1646,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1676,
+  "subjects": [
+   "France",
+   "Great Britain",
+   "Fountainhall, John Lauder, Lord, 1646-1722",
+   "Judges"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1621",
+  "title": "Second Thoughts are Best: Or a Further Improvement of a Late Scheme to Prevent Street Robberies",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_daniel_defoe",
+    "name": "Daniel Defoe",
+    "birth_year": 1661,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1691,
+  "subjects": [
+   "Robbery"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1697",
+  "title": "An Enquiry into the Causes of the Frequent Executions at Tyburn (1725)",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_bernard_mandeville",
+    "name": "Bernard Mandeville",
+    "birth_year": 1670,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1700,
+  "subjects": [
+   "Crime",
+   "Punishment",
+   "Executions and executioners",
+   "Criminals",
+   "Tyburn gallows (London, England)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1826",
+  "title": "Tractus de Hermaphrodites; Or, A Treatise of Hermaphrodites",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_giles_jacob",
+    "name": "Giles Jacob",
+    "birth_year": 1686,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1716,
+  "subjects": [
+   "Sex"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1948",
+  "title": "Remarks upon the solar and the lunar years, the cycle of 19 years, commonly called the golden number, the epact, and a method of finding the time of Easter, as it is now observed in most parts of Europe",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_macclesfield_george_parker_earl_of",
+    "name": "Macclesfield, George Parker, Earl of",
+    "birth_year": 1697,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1727,
+  "subjects": [
+   "Easter",
+   "Calendar",
+   "Calendar reform"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_1992",
+  "title": "The description and use of the globes and the orrery To which is prefix'd, by way of introduction, a brief account of the solar system",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_joseph_harris",
+    "name": "Joseph Harris",
+    "birth_year": 1704,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1734,
+  "subjects": [
+   "Globes",
+   "Astronomical models"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2114",
+  "title": "The witchcraft delusion of 1692",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_thomas_hutchinson",
+    "name": "Thomas Hutchinson",
+    "birth_year": 1711,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1741,
+  "subjects": [
+   "Witchcraft"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2115",
+  "title": "A Discourse Upon the Origin and the Foundation of the Inequality Among Mankind",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_jean_jacques_rousseau",
+    "name": "Jean-Jacques Rousseau",
+    "birth_year": 1712,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1742,
+  "subjects": [
+   "Political science",
+   "Natural law",
+   "Equality"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2165",
+  "title": "The Story of Elizabeth Canning Considered",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_john_hill",
+    "name": "John Hill",
+    "birth_year": 1714,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1744,
+  "subjects": [
+   "Canning, Elizabeth, 1734-1773",
+   "Fielding, Henry, 1707-1754. Clear state of the case of Elizabeth Canning",
+   "Trials (Perjury)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2214",
+  "title": "On the uncertainty of the signs of murder in the case of bastard children",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_william_hunter",
+    "name": "William Hunter",
+    "birth_year": 1718,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1748,
+  "subjects": [
+   "Infanticide",
+   "Illegitimacy"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2222",
+  "title": "Lectures on the constitution and laws of England With a commentary on Magna Charta, and illustrations of many of the English statutes",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_francis_stoughton_sullivan",
+    "name": "Francis Stoughton Sullivan",
+    "birth_year": 1719,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1749,
+  "subjects": [
+   "Magna Carta",
+   "Constitutional history",
+   "Feudal law"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2274",
+  "title": "Commentaries on the Laws of England, Book the First",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_blackstone_william_sir",
+    "name": "Blackstone, William, Sir",
+    "birth_year": 1723,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1753,
+  "subjects": [
+   "Law"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2393",
+  "title": "A Short View of the Laws Now Subsisting with Respect to the Powers of the East India Company To Borrow Money under their Seal, and to Incur Debts in the Course of their Trade, by the Purchase of Goods on Credit, and by Freighting Ships or other Mercantile Transactions",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_william_pulteney",
+    "name": "William Pulteney",
+    "birth_year": 1729,
+    "bio": null
+   },
+   {
+    "id": "a_john_stewart",
+    "name": "John Stewart",
+    "birth_year": 1749,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1759,
+  "subjects": [
+   "East India Company",
+   "Great Britain"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2423",
+  "title": "The Works of the Right Honourable Edmund Burke, Vol. 11 (of 12)",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_edmund_burke",
+    "name": "Edmund Burke",
+    "birth_year": 1729,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1759,
+  "subjects": [
+   "Great Britain",
+   "Political science"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2506",
+  "title": "The tryal of Mr. Daniel Sutton, for the high crime of preserving the lives of His Majesty's liege subjects, by means of inoculation",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_daniel_sutton",
+    "name": "Daniel Sutton",
+    "birth_year": 1735,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1765,
+  "subjects": [
+   "Smallpox",
+   "Sutton, Daniel, 1735-1819"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2509",
+  "title": "Considerations on the Negroe cause commonly so called Addressed to the Right Honourable Lord Mansfield, lord chief justice of the Court of King's Bench, &c.",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_samuel_estwick",
+    "name": "Samuel Estwick",
+    "birth_year": 1736,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1766,
+  "subjects": [
+   "Slavery"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2514",
+  "title": "Lectures on Elementary Mathematics",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_j_l_joseph_louis_lagrange",
+    "name": "J. L. (Joseph Louis) Lagrange",
+    "birth_year": 1736,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1766,
+  "subjects": [
+   "Mathematics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2619",
+  "title": "History, Manners, and Customs of the Indian Nations Who Once Inhabited Pennsylvania and the Neighbouring States.",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_john_gottlieb_ernestus_heckewelder",
+    "name": "John Gottlieb Ernestus Heckewelder",
+    "birth_year": 1743,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1773,
+  "subjects": [
+   "Iroquois Indians",
+   "Delaware Indians",
+   "Indians of North America"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2661",
+  "title": "A Treatise on the Police of the Metropolis Containing a Detail of the Various Crimes and Misdemeanors by which Public and Private Property and Security are, at Present, Injured and Endangered: and Suggesting Remedies for their Prevention",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_patrick_colquhoun",
+    "name": "Patrick Colquhoun",
+    "birth_year": 1745,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1775,
+  "subjects": [
+   "Crime",
+   "Police"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2702",
+  "title": "Trial of Jane Leigh Perrot, at Taunton Assizes, on Saturday the 29th day of March, 1800; charged with stealing a card of lace, in the shop of Elizabeth Gregory, haberdasher & milliner, of the city of Bath",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_jane_cholmeley_leigh_perrot",
+    "name": "Jane Cholmeley Leigh Perrot",
+    "birth_year": 1746,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1776,
+  "subjects": [
+   "Leigh Perrot, Jane Cholmeley, 1746-1836",
+   "Trials (Larceny)"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2729",
+  "title": "A Philosophical Essay on Probabilities",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_laplace_pierre_simon_marquis_de",
+    "name": "Laplace, Pierre Simon, marquis de",
+    "birth_year": 1749,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1779,
+  "subjects": [
+   "Probabilities"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_2788",
+  "title": "An essay on the slave trade",
+  "incipit": null,
+  "genre": "law",
+  "authors": [
+   {
+    "id": "a_grimur_jonsson_thorkelin",
+    "name": "Grímur Jónsson Thorkelín",
+    "birth_year": 1752,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1782,
+  "subjects": [
+   "Slave trade",
+   "Slavery"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3294",
+  "title": "Conversations on Chemistry, V. 1-2 In Which the Elements of that Science Are Familiarly Explained and Illustrated by Experiments",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mrs_jane_haldimand_marcet",
+    "name": "Mrs. (Jane Haldimand) Marcet",
+    "birth_year": 1769,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1799,
+  "subjects": [
+   "Chemistry"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3295",
+  "title": "Conversations on Natural Philosophy, in which the Elements of that Science are Familiarly Explained",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mrs_jane_haldimand_marcet",
+    "name": "Mrs. (Jane Haldimand) Marcet",
+    "birth_year": 1769,
+    "bio": null
+   },
+   {
+    "id": "a_thomas_p_jones",
+    "name": "Thomas P. Jones",
+    "birth_year": null,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1799,
+  "subjects": [
+   "Physics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3735",
+  "title": "General Investigations of Curved Surfaces of 1827 and 1825",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_carl_friedrich_gauss",
+    "name": "Carl Friedrich Gauss",
+    "birth_year": 1777,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1807,
+  "subjects": [
+   "Surfaces"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3916",
+  "title": "A Preliminary Dissertation on the Mechanisms of the Heavens",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mary_somerville",
+    "name": "Mary Somerville",
+    "birth_year": 1780,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1810,
+  "subjects": [
+   "Celestial mechanics"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3934",
+  "title": "On Molecular and Microscopic Science, Volume 1 (of 2)",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mary_somerville",
+    "name": "Mary Somerville",
+    "birth_year": 1780,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1810,
+  "subjects": [
+   "Natural history",
+   "Microscopy",
+   "Matter"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3935",
+  "title": "On Molecular and Microscopic Science, Volume 2 (of 2)",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mary_somerville",
+    "name": "Mary Somerville",
+    "birth_year": 1780,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1810,
+  "subjects": [
+   "Natural history",
+   "Microscopy",
+   "Matter"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3936",
+  "title": "On the Connexion of the Physical Sciences",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mary_somerville",
+    "name": "Mary Somerville",
+    "birth_year": 1780,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1810,
+  "subjects": [
+   "Science",
+   "Physical sciences"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_3942",
+  "title": "Physical Geography",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_mary_somerville",
+    "name": "Mary Somerville",
+    "birth_year": 1780,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1810,
+  "subjects": [
+   "Physical geography",
+   "Biogeography"
+  ],
+  "source": "gutenberg"
+ },
+ {
+  "_id": "w_4661",
+  "title": "The calculating engine",
+  "incipit": null,
+  "genre": "mathematics",
+  "authors": [
+   {
+    "id": "a_charles_babbage",
+    "name": "Charles Babbage",
+    "birth_year": 1791,
+    "bio": null
+   }
+  ],
+  "language": "en",
+  "year": 1821,
+  "subjects": [
+   "Calculators"
+  ],
+  "source": "gutenberg"
  }
 ]
