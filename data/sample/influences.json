@@ -11,10 +11,70 @@
   ],
   "edges": [
     {
+      "source": "a_aegineta_paulus",
+      "target": "a_aulus_cornelius_celsus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_aegineta_paulus",
+      "target": "a_hippocrates",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_albrecht_durer",
+      "target": "a_archimedes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_albrecht_durer",
+      "target": "a_proclus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
       "source": "a_alexander_the_great",
       "target": "a_aristotle",
       "type": "STUDENT_OF",
       "origin": "curated"
+    },
+    {
+      "source": "a_antipope_hippolytus",
+      "target": "a_king_of_babylonia_hammurabi",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_antipope_hippolytus",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_archimedes",
+      "target": "a_euclid",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_aristophanes",
+      "target": "a_euripides",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_aristophanes",
+      "target": "a_thucydides",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_aristotle",
+      "target": "a_demosthenes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
     },
     {
       "source": "a_aristotle",
@@ -29,8 +89,128 @@
       "origin": "curated"
     },
     {
+      "source": "a_aulus_cornelius_celsus",
+      "target": "a_hippocrates",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_blackstone_william_sir",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_blackstone_william_sir",
+      "target": "a_ranulf_de_glanville",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_carl_friedrich_gauss",
+      "target": "a_laplace_pierre_simon_marquis_de",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_carl_friedrich_gauss",
+      "target": "a_mrs_jane_haldimand_marcet",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_charles_babbage",
+      "target": "a_carl_friedrich_gauss",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_charles_babbage",
+      "target": "a_mary_somerville",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_christopher_marlowe",
+      "target": "a_george_chapman",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_christopher_marlowe",
+      "target": "a_thomas_kyd",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_christopher_merret",
+      "target": "a_johann_rudolf_glauber",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_christopher_merret",
+      "target": "a_simon_paulli",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_claudius_claudianus",
+      "target": "a_ovid",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_claudius_claudianus",
+      "target": "a_prudentius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_da_vinci_leonardo",
+      "target": "a_aristotle",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_da_vinci_leonardo",
+      "target": "a_horace",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_daniel_defoe",
+      "target": "a_fountainhall_john_lauder_lord",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_daniel_defoe",
+      "target": "a_hugo_grotius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_daniel_sutton",
+      "target": "a_edmund_burke",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_daniel_sutton",
+      "target": "a_william_pulteney",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
       "source": "a_dante",
       "target": "a_homer",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_dante",
+      "target": "a_lucan",
       "type": "INFLUENCED_BY",
       "origin": "generated"
     },
@@ -41,8 +221,206 @@
       "origin": "curated"
     },
     {
+      "source": "a_dante_alighieri",
+      "target": "a_lucan",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_dante_alighieri",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_david_edguard",
+      "target": "a_aegineta_paulus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_david_edguard",
+      "target": "a_luigi_cornaro",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_david_garrick",
+      "target": "a_aristophanes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_david_garrick",
+      "target": "a_william_shakespeare",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_demosthenes",
+      "target": "a_aristophanes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_demosthenes",
+      "target": "a_lysias",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_edmund_burke",
+      "target": "a_fountainhall_john_lauder_lord",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_edmund_burke",
+      "target": "a_jean_jacques_rousseau",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_edmund_deane",
+      "target": "a_edward_jorden",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_edmund_deane",
+      "target": "a_william_harvey",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_edward_jorden",
+      "target": "a_john_caius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_edward_jorden",
+      "target": "a_ortensio_landi",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_emperor_of_rome_augustus",
+      "target": "a_horace",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_emperor_of_rome_augustus",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_euripides",
+      "target": "a_pindar",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
       "source": "a_euripides",
       "target": "a_sophocles",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_fabian_stedman",
+      "target": "a_john_dee",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_fabian_stedman",
+      "target": "a_newcastle_margaret_cavendish_duchess_of",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_faxian",
+      "target": "a_confucius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_faxian",
+      "target": "a_mencius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_fountainhall_john_lauder_lord",
+      "target": "a_william_shakespeare",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_francis_stoughton_sullivan",
+      "target": "a_aristotle",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_gaius_valerius_catullus",
+      "target": "a_julius_caesar",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_gaius_valerius_catullus",
+      "target": "a_sallust",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_george_chapman",
+      "target": "a_euripides",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_george_chapman",
+      "target": "a_thomas_kyd",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_george_colman",
+      "target": "a_david_garrick",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_george_colman",
+      "target": "a_william_shakespeare",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_giles_jacob",
+      "target": "a_bernard_mandeville",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_giles_jacob",
+      "target": "a_daniel_defoe",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_grimur_jonsson_thorkelin",
+      "target": "a_samuel_estwick",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_horace",
+      "target": "a_gaius_valerius_catullus",
       "type": "INFLUENCED_BY",
       "origin": "generated"
     },
@@ -59,6 +437,222 @@
       "origin": "generated"
     },
     {
+      "source": "a_j_l_joseph_louis_lagrange",
+      "target": "a_john_dee",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_j_l_joseph_louis_lagrange",
+      "target": "a_petrus_ramus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_jane_cholmeley_leigh_perrot",
+      "target": "a_john_gottlieb_ernestus_heckewelder",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_jane_cholmeley_leigh_perrot",
+      "target": "a_patrick_colquhoun",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_jean_jacques_rousseau",
+      "target": "a_hugo_grotius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_jean_jacques_rousseau",
+      "target": "a_niccolo_machiavelli",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_johann_rudolf_glauber",
+      "target": "a_roger_bacon",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_caius",
+      "target": "a_aegineta_paulus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_caius",
+      "target": "a_hippocrates",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_dee",
+      "target": "a_petrus_ramus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_dee",
+      "target": "a_robert_record",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_gottlieb_ernestus_heckewelder",
+      "target": "a_josselyn_john_active",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_hill",
+      "target": "a_jean_jacques_rousseau",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_hill",
+      "target": "a_thomas_hutchinson",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_lydgate",
+      "target": "a_aristophanes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_lydgate",
+      "target": "a_titus_maccius_plautus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_stewart",
+      "target": "a_edmund_burke",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_john_stewart",
+      "target": "a_william_pulteney",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_joseph_harris",
+      "target": "a_fabian_stedman",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_joseph_harris",
+      "target": "a_macclesfield_george_parker_earl_of",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_josselyn_john_active",
+      "target": "a_the_elder_pliny",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_julius_caesar",
+      "target": "a_marcus_tullius_cicero",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_laplace_pierre_simon_marquis_de",
+      "target": "a_j_l_joseph_louis_lagrange",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_laplace_pierre_simon_marquis_de",
+      "target": "a_joseph_harris",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_livy",
+      "target": "a_emperor_of_rome_augustus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_livy",
+      "target": "a_horace",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_lucan",
+      "target": "a_livy",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_lucan",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_lucius_annaeus_seneca",
+      "target": "a_ovid",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_lucius_annaeus_seneca",
+      "target": "a_xenophon",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_lucretius",
+      "target": "a_marcus_terentius_varro",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_lucretius",
+      "target": "a_marcus_tullius_cicero",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_luigi_cornaro",
+      "target": "a_aegineta_paulus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_luigi_cornaro",
+      "target": "a_the_elder_pliny",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_macclesfield_george_parker_earl_of",
+      "target": "a_fabian_stedman",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_macclesfield_george_parker_earl_of",
+      "target": "a_newcastle_margaret_cavendish_duchess_of",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
       "source": "a_marcus_aurelius",
       "target": "a_aristotle",
       "type": "INFLUENCED_BY",
@@ -71,10 +665,232 @@
       "origin": "generated"
     },
     {
+      "source": "a_marcus_terentius_varro",
+      "target": "a_marcus_porcius_cato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_marcus_tullius_cicero",
+      "target": "a_aristotle",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_marcus_tullius_cicero",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_marmaduke_park",
+      "target": "a_aesop",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_mary_somerville",
+      "target": "a_josselyn_john_active",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_mary_somerville",
+      "target": "a_the_elder_pliny",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_mencius",
+      "target": "a_confucius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_moschus",
+      "target": "a_theocritus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_mrs_jane_haldimand_marcet",
+      "target": "a_nehemiah_grew",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_mrs_jane_haldimand_marcet",
+      "target": "a_newcastle_margaret_cavendish_duchess_of",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_nathaniel_hodges",
+      "target": "a_thomas_willis",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_nehemiah_grew",
+      "target": "a_johann_rudolf_glauber",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_niccolo_machiavelli",
+      "target": "a_marcus_tullius_cicero",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_niccolo_machiavelli",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_nicholas_culpeper",
+      "target": "a_christopher_merret",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_nicholas_culpeper",
+      "target": "a_johann_rudolf_glauber",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_nicholas_udall",
+      "target": "a_john_lydgate",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_nicholas_udall",
+      "target": "a_titus_maccius_plautus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_of_phlossa_near_smyrna_bion",
+      "target": "a_theocritus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_of_samosata_lucian",
+      "target": "a_lucretius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_of_samosata_lucian",
+      "target": "a_the_elder_pliny",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ortensio_landi",
+      "target": "a_david_edguard",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ortensio_landi",
+      "target": "a_john_caius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ovid",
+      "target": "a_horace",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ovid",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_patrick_colquhoun",
+      "target": "a_bernard_mandeville",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_petrus_ramus",
+      "target": "a_archimedes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_petrus_ramus",
+      "target": "a_robert_record",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_pindar",
+      "target": "a_aeschylus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_plato",
+      "target": "a_confucius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
       "source": "a_plato",
       "target": "a_socrates",
       "type": "STUDENT_OF",
       "origin": "curated"
+    },
+    {
+      "source": "a_plato",
+      "target": "a_xenophon",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_plutarch",
+      "target": "a_aristotle",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_plutarch",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_proclus",
+      "target": "a_archimedes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_proclus",
+      "target": "a_euclid",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_prudentius",
+      "target": "a_ovid",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_prudentius",
+      "target": "a_tibullus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
     },
     {
       "source": "a_ptolemy",
@@ -89,10 +905,178 @@
       "origin": "generated"
     },
     {
+      "source": "a_ptolemy",
+      "target": "a_of_samosata_lucian",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ptolemy",
+      "target": "a_the_elder_pliny",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_quincy_john_1722",
+      "target": "a_nathaniel_hodges",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_quincy_john_1722",
+      "target": "a_thomas_willis",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ranulf_de_glanville",
+      "target": "a_king_of_babylonia_hammurabi",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_ranulf_de_glanville",
+      "target": "a_plato",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_robert_dodsley",
+      "target": "a_aesop",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_robert_record",
+      "target": "a_archimedes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_robert_record",
+      "target": "a_euclid",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_sallust",
+      "target": "a_julius_caesar",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_sallust",
+      "target": "a_marcus_tullius_cicero",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_simon_paulli",
+      "target": "a_edmund_deane",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_simon_paulli",
+      "target": "a_william_harvey",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_sophocles",
+      "target": "a_aeschylus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_sophocles",
+      "target": "a_pindar",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_theophrastus",
+      "target": "a_euripides",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_theophrastus",
+      "target": "a_xenophon",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_hutchinson",
+      "target": "a_bernard_mandeville",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_hutchinson",
+      "target": "a_giles_jacob",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_kyd",
+      "target": "a_aeschylus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_kyd",
+      "target": "a_sophocles",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_p_jones",
+      "target": "a_mrs_jane_haldimand_marcet",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_p_jones",
+      "target": "a_newcastle_margaret_cavendish_duchess_of",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_tryon",
+      "target": "a_josselyn_john_active",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_thomas_tryon",
+      "target": "a_nathaniel_hodges",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
       "source": "a_thucydides",
       "target": "a_herodotus",
       "type": "INFLUENCED_BY",
       "origin": "curated"
+    },
+    {
+      "source": "a_tibullus",
+      "target": "a_gaius_valerius_catullus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_titus_maccius_plautus",
+      "target": "a_aristophanes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_virgil",
+      "target": "a_gaius_valerius_catullus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
     },
     {
       "source": "a_virgil",
@@ -105,6 +1089,84 @@
       "target": "a_lucretius",
       "type": "INFLUENCED_BY",
       "origin": "curated"
+    },
+    {
+      "source": "a_virgil",
+      "target": "a_titus_lucretius_carus",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_voltaire",
+      "target": "a_virgil",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_harvey",
+      "target": "a_edward_jorden",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_harvey",
+      "target": "a_ortensio_landi",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_hunter",
+      "target": "a_jean_jacques_rousseau",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_hunter",
+      "target": "a_john_hill",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_pulteney",
+      "target": "a_fountainhall_john_lauder_lord",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_pulteney",
+      "target": "a_william_shakespeare",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_shakespeare",
+      "target": "a_aristophanes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_william_shakespeare",
+      "target": "a_niccolo_machiavelli",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_xenophon",
+      "target": "a_aristophanes",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_xenophon",
+      "target": "a_thucydides",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
+    },
+    {
+      "source": "a_zengzi",
+      "target": "a_confucius",
+      "type": "INFLUENCED_BY",
+      "origin": "generated"
     }
   ]
 }
