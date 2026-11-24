@@ -4,8 +4,8 @@ from backend.app.main import app
 
 client = TestClient(app)
 
-# Endpoints that are still stubs. Remove a line here when its task is done.
-STILL_STUBS = ["/popular", "/monitoring/alerts"]
+# Endpoints that are still stubs (they answer 501). Empty since Day 4: all are implemented.
+STILL_STUBS: list[str] = []
 
 
 def test_health():
