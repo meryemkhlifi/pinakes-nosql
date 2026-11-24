@@ -1,14 +1,24 @@
+import fakeredis
 import mongomock
 import pytest
 from elastic_transport import ConnectionError as TransportConnectionError
 from fastapi.testclient import TestClient
 
 from backend.app.db import es as search_db
+from backend.app.db import redis as redis_db
 from backend.app.main import app
 from data_pipeline.elastic import index_config as ic
 from data_pipeline.elastic import load_es
 
 client = TestClient(app)
+
+
+@pytest.fixture(autouse=True)
+def fake_redis(monkeypatch):
+    r = fakeredis.FakeRedis(decode_responses=True)
+    monkeypatch.setattr(redis_db, "get_redis", lambda: r)
+    return r
+
 
 RESPONSE = {
     "hits": {
@@ -77,6 +87,10 @@ def test_parse_search_follows_the_contract():
     assert "highlight" not in out["hits"][1]
     assert out["facets"]["genre"] == [{"key": "philosophy", "count": 5}]
     assert out["facets"]["year"] == [{"key": -500, "count": 3}]
+
+
+def test_highlight_text_is_escaped_by_elasticsearch():
+    assert search_db.build_search_body("x")["highlight"]["encoder"] == "html"
 
 
 def test_suggest_body_and_parse():
@@ -183,3 +197,33 @@ def test_actions_use_the_mongo_id():
     acts = list(load_es.actions(coll))
     assert [a["_id"] for a in acts] == ["w_1", "w_2"]
     assert all(a["_index"] == "works" and a["_op_type"] == "index" for a in acts)
+
+
+def test_search_is_cached_for_60_seconds(fake_es, fake_redis):
+    first = client.get("/search", params={"q": "Republic"})
+    second = client.get("/search", params={"q": " republic "})  # same search after cleaning
+    other = client.get("/search", params={"q": "republic", "genre": "epic"})
+    assert [r.headers["X-Cache"] for r in (first, second, other)] == ["MISS", "HIT", "MISS"]
+    assert first.json() == second.json()
+    keys = fake_redis.keys("search:*")
+    assert len(keys) == 2 and all(0 < fake_redis.ttl(k) <= 60 for k in keys)
+
+
+def test_suggest_is_cached(fake_es):
+    assert client.get("/suggest", params={"q": "rep"}).headers["X-Cache"] == "MISS"
+    assert client.get("/suggest", params={"q": "rep"}).headers["X-Cache"] == "HIT"
+
+
+def test_search_still_works_when_redis_is_down(fake_es, monkeypatch):
+    from redis.exceptions import ConnectionError as RedisConnectionError
+
+    class Dead:
+        def __getattr__(self, name):
+            def boom(*a, **k):
+                raise RedisConnectionError("down")
+
+            return boom
+
+    monkeypatch.setattr(redis_db, "get_redis", lambda: Dead())
+    r = client.get("/search", params={"q": "republic"})
+    assert r.status_code == 200 and r.headers["X-Cache"] == "MISS"

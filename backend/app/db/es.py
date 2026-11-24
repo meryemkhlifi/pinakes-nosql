@@ -55,6 +55,7 @@ def build_search_body(
         "highlight": {
             "pre_tags": ["<em>"],
             "post_tags": ["</em>"],
+            "encoder": "html",  # escapes the text, so <em> is the only tag in the result
             "fields": {
                 "incipit": {"fragment_size": 150, "number_of_fragments": 1},
                 "title": {"number_of_fragments": 0},

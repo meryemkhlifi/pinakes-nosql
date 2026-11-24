@@ -50,3 +50,12 @@ def authors_of_genre(genre: str, collection=None) -> list[dict]:
 def get_work(work_id: str, collection=None) -> dict | None:
     collection = collection if collection is not None else get_collection()
     return collection.find_one({"_id": work_id})
+
+
+def titles_of(work_ids: list[str], collection=None) -> dict[str, str]:
+    """{work_id: title} for the given ids (used by /popular)."""
+    if not work_ids:
+        return {}
+    collection = collection if collection is not None else get_collection()
+    rows = collection.find({"_id": {"$in": list(work_ids)}}, {"title": 1})
+    return {r["_id"]: r["title"] for r in rows}

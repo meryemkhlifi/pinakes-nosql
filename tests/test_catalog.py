@@ -7,13 +7,15 @@ from fastapi.testclient import TestClient
 from pymongo.errors import ServerSelectionTimeoutError
 
 from backend.app.db import mongo as catalog_db
+from backend.app.db import redis as redis_db
 from backend.app.main import app
 from data_pipeline.mongo import build_works as bw
 from data_pipeline.mongo import load_mongo, make_sample
 
 client = TestClient(app)
+# Only the 20 hand-made works: the file can also hold generated works (300-work sample).
 _ALL = json.loads(Path("data/sample/works_sample.json").read_text(encoding="utf-8"))
-SAMPLE = [w for w in _ALL if w.get("source") == "sample"]  # the 20 hand-made works only
+SAMPLE = [w for w in _ALL if w.get("source") == "sample"]
 
 
 @pytest.fixture
@@ -51,6 +53,8 @@ def test_get_work(collection):
 
 @pytest.fixture
 def fake_db(monkeypatch):
+    views = []
+    monkeypatch.setattr(redis_db, "record_view", views.append)
     monkeypatch.setattr(catalog_db, "list_genres", lambda: [{"genre": "epic", "count": 4}])
     monkeypatch.setattr(
         catalog_db,
@@ -60,6 +64,13 @@ def fake_db(monkeypatch):
     monkeypatch.setattr(
         catalog_db, "get_work", lambda i: None if i == "w_9999" else {"_id": i, "title": "x"}
     )
+    return views
+
+
+def test_opening_a_work_counts_one_view(fake_db):
+    client.get("/catalog/works/w_0001")
+    client.get("/catalog/works/w_9999")  # unknown work: no view
+    assert fake_db == ["w_0001"]
 
 
 def test_catalog_endpoints(fake_db):

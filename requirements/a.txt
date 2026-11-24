@@ -4,3 +4,4 @@ elasticsearch>=8,<9
 redis
 pandas
 mongomock
+fakeredis
