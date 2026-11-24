@@ -12,7 +12,8 @@ from data_pipeline.mongo import build_works as bw
 from data_pipeline.mongo import load_mongo, make_sample
 
 client = TestClient(app)
-SAMPLE = json.loads(Path("data/sample/works_sample.json").read_text(encoding="utf-8"))
+_ALL = json.loads(Path("data/sample/works_sample.json").read_text(encoding="utf-8"))
+SAMPLE = [w for w in _ALL if w.get("source") == "sample"]  # the 20 hand-made works only
 
 
 @pytest.fixture

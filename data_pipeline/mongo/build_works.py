@@ -96,7 +96,7 @@ def build_works(rows, max_birth_year=1800, limit=5000, languages=("en",), seed=(
         if language not in languages:
             continue
         authors = [a for a in map(parse_author, (r.get("Authors") or "").split(";")) if a]
-        title = (r.get("Title") or "").replace("\n", " ").strip()
+        title = " ".join((r.get("Title") or "").split())
         if not authors or not title:
             continue
         birth = authors[0]["birth_year"]
