@@ -5,11 +5,14 @@ It reads Neo4j directly, then (if the API is running) calls the three graph endp
 
 import argparse
 import sys
+from pathlib import Path
 
-import httpx
-from neo4j import GraphDatabase
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from backend.app.config import settings
+import httpx  # noqa: E402
+from neo4j import GraphDatabase  # noqa: E402
+
+from backend.app.config import settings  # noqa: E402
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--from", dest="source", default="a_horace")
