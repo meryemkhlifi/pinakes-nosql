@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "docs": 50000,
+    "real_docs": 5000,
+    "runs": 30,
+    "warmup": 3,
+    "es_took_median_ms": 18
+  },
+  "rows": [
+    {
+      "engine": "Elasticsearch",
+      "query": "republic",
+      "kind": "exact",
+      "matches": 58,
+      "runs": 30,
+      "p50_ms": 62.706,
+      "p95_ms": 73.1,
+      "mean_ms": 63.653,
+      "min_ms": 53.866,
+      "max_ms": 73.952,
+      "top_titles": [
+        "The Republic",
+        "The Republic of Plato",
+        "Improvement Twelve republic and"
+      ]
+    },
+    {
+      "engine": "PostgreSQL",
+      "query": "republic",
+      "kind": "exact",
+      "matches": 69,
+      "runs": 30,
+      "p50_ms": 2.351,
+      "p95_ms": 3.158,
+      "mean_ms": 2.49,
+      "min_ms": 1.895,
+      "max_ms": 4.548,
+      "top_titles": [
+        "northern on The Comedy; The History Their Architecture (of first Republic",
+        "means Coleridge Fowler Anecdotes Great republic of to Memoirs and Communication Boethius Manon",
+        "Improvement Twelve republic and"
+      ]
+    },
+    {
+      "engine": "Elasticsearch",
+      "query": "history of rome",
+      "kind": "exact",
+      "matches": 23,
+      "runs": 30,
+      "p50_ms": 66.572,
+      "p95_ms": 79.061,
+      "mean_ms": 67.522,
+      "min_ms": 58.578,
+      "max_ms": 81.789,
+      "top_titles": [
+        "The History of Rome, Books 01 to 08",
+        "The History of Rome, Books 09 to 26",
+        "The History of Rome, Books 27 to 36"
+      ]
+    },
+    {
+      "engine": "PostgreSQL",
+      "query": "history of rome",
+      "kind": "exact",
+      "matches": 105,
+      "runs": 30,
+      "p50_ms": 1.649,
+      "p95_ms": 1.949,
+      "mean_ms": 1.632,
+      "min_ms": 1.299,
+      "max_ms": 2.37,
+      "top_titles": [
+        "Volume Eleven Ogier Madame Substances India to Mexico W. From (1777) History Rome, Exclusives",
+        "Writings World History great Rome, A Order pilgrim of Studio, in 3) Voyages Malmesbury, Select the Traits",
+        "The History of Rome, Books 09 to 26"
+      ]
+    },
+    {
+      "engine": "Elasticsearch",
+      "query": "republc",
+      "kind": "fuzzy",
+      "matches": 69,
+      "runs": 30,
+      "p50_ms": 68.883,
+      "p95_ms": 82.997,
+      "mean_ms": 67.834,
+      "min_ms": 21.975,
+      "max_ms": 84.79,
+      "top_titles": [
+        "The Republic",
+        "The Republic of Plato",
+        "Improvement Twelve republic and"
+      ]
+    },
+    {
+      "engine": "PostgreSQL",
+      "query": "republc",
+      "kind": "fuzzy",
+      "matches": 1,
+      "runs": 30,
+      "p50_ms": 33.84,
+      "p95_ms": 39.967,
+      "mean_ms": 33.35,
+      "min_ms": 21.126,
+      "max_ms": 52.225,
+      "top_titles": [
+        "The Republic"
+      ]
+    }
+  ]
+}
