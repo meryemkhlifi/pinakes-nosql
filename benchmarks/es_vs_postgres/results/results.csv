@@ -1,0 +1,7 @@
+engine,query,kind,matches,runs,p50_ms,p95_ms,mean_ms,min_ms,max_ms,top_titles
+Elasticsearch,republic,exact,58,30,62.706,73.1,63.653,53.866,73.952,The Republic | The Republic of Plato | Improvement Twelve republic and
+PostgreSQL,republic,exact,69,30,2.351,3.158,2.49,1.895,4.548,northern on The Comedy; The History Their Architecture (of first Republic | means Coleridge Fowler Anecdotes Great republic of to Memoirs and Communication Boethius Manon | Improvement Twelve republic and
+Elasticsearch,history of rome,exact,23,30,66.572,79.061,67.522,58.578,81.789,"The History of Rome, Books 01 to 08 | The History of Rome, Books 09 to 26 | The History of Rome, Books 27 to 36"
+PostgreSQL,history of rome,exact,105,30,1.649,1.949,1.632,1.299,2.37,"Volume Eleven Ogier Madame Substances India to Mexico W. From (1777) History Rome, Exclusives | Writings World History great Rome, A Order pilgrim of Studio, in 3) Voyages Malmesbury, Select the Traits | The History of Rome, Books 09 to 26"
+Elasticsearch,republc,fuzzy,69,30,68.883,82.997,67.834,21.975,84.79,The Republic | The Republic of Plato | Improvement Twelve republic and
+PostgreSQL,republc,fuzzy,1,30,33.84,39.967,33.35,21.126,52.225,The Republic
