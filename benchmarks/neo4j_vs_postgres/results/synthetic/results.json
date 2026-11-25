@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "dataset": "synthetic",
+    "nodes": 20000,
+    "edges": 39993,
+    "runs": 30,
+    "warmup": 3,
+    "pg_timeout_ms": 20000
+  },
+  "rows": [
+    {
+      "engine": "Neo4j",
+      "depth": 2,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 5.722,
+      "p95_ms": 6.708,
+      "mean_ms": 5.821,
+      "min_ms": 5.071,
+      "max_ms": 8.117,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "PostgreSQL",
+      "depth": 2,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 1.844,
+      "p95_ms": 2.608,
+      "mean_ms": 1.976,
+      "min_ms": 1.632,
+      "max_ms": 3.669,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "Neo4j",
+      "depth": 3,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 5.497,
+      "p95_ms": 6.162,
+      "mean_ms": 5.577,
+      "min_ms": 4.899,
+      "max_ms": 7.786,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "PostgreSQL",
+      "depth": 3,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 1.965,
+      "p95_ms": 2.859,
+      "mean_ms": 2.122,
+      "min_ms": 1.585,
+      "max_ms": 4.131,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "Neo4j",
+      "depth": 4,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 6.795,
+      "p95_ms": 9.503,
+      "mean_ms": 6.846,
+      "min_ms": 5.13,
+      "max_ms": 9.984,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "PostgreSQL",
+      "depth": 4,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 3.104,
+      "p95_ms": 4.945,
+      "mean_ms": 3.375,
+      "min_ms": 2.167,
+      "max_ms": 5.776,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "Neo4j",
+      "depth": 5,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 5.285,
+      "p95_ms": 7.17,
+      "mean_ms": 5.611,
+      "min_ms": 5.025,
+      "max_ms": 10.559,
+      "wrong_answers": 0,
+      "timeouts": 0
+    },
+    {
+      "engine": "PostgreSQL",
+      "depth": 5,
+      "pairs": 10,
+      "runs": 30,
+      "p50_ms": 6.473,
+      "p95_ms": 11.999,
+      "mean_ms": 6.977,
+      "min_ms": 2.207,
+      "max_ms": 13.643,
+      "wrong_answers": 0,
+      "timeouts": 0
+    }
+  ]
+}
