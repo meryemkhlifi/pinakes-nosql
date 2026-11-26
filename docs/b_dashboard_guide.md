@@ -48,3 +48,13 @@ For each Lens panel: click **Create visualization**, pick the data view **Pinake
 - Export for Git: `python elk/dashboard_io.py export` (writes `elk/dashboard.ndjson`), then `git add elk/dashboard.ndjson`.
 - To get it back later: `python elk/dashboard_io.py import`.
 - Take a screenshot for the report (once normally, once during the bot burst).
+
+## If a panel says "Saved field ... is invalid for use with the Terms aggregation"
+The log index has the wrong field types (for example `path` is `text` instead of `keyword`), or Kibana
+kept an old list of fields. Check, then fix:
+1. `python elk/setup_elk.py --check` (it says which field has the wrong type).
+2. If it prints `[FAIL]`: `python elk/setup_elk.py --reset`, send traffic again
+   (`python scripts/smoke_traffic.py --n 300`), wait 30 seconds, run `--check` again.
+3. In Kibana: Menu > Stack Management > Data Views > **Pinakes API logs** > refresh icon
+   (top right, "Refresh field list") > confirm. Then reload the dashboard.
+4. Export again (`python elk/dashboard_io.py export`): the export now leaves out the cached field list.

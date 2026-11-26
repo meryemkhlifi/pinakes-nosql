@@ -1,3 +1,5 @@
+import json
+
 import httpx
 from fastapi.testclient import TestClient
 
@@ -120,3 +122,16 @@ def test_import_overwrites():
 def test_monitoring_is_not_a_stub_anymore(monkeypatch):
     monkeypatch.setattr(es_logs, "latest_alerts", lambda limit: [])
     assert client.get("/monitoring/alerts").status_code == 200
+
+
+def test_export_drops_the_cached_field_list():
+    exported = (
+        '{"type":"index-pattern","id":"pinakes-logs","attributes":{"title":"pinakes-logs-*",'
+        '"fields":"[{\\"name\\":\\"path\\",\\"type\\":\\"string\\",\\"aggregatable\\":false}]"}}\n'
+        '{"type":"dashboard","id":"d1","attributes":{"title":"Pinakes"}}\n'
+    )
+    cleaned = dashboard_io.strip_field_cache(exported)
+    first, second = [json.loads(line) for line in cleaned.splitlines()]
+    assert "fields" not in first["attributes"] and first["attributes"]["title"] == "pinakes-logs-*"
+    assert second["attributes"]["title"] == "Pinakes"
+    assert cleaned.endswith("\n")

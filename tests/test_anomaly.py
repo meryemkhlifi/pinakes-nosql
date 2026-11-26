@@ -173,3 +173,24 @@ def test_bot_traffic_triggers_the_alert_logic():
 def test_json_alert_document_is_serialisable():
     a = za.find_alerts(baseline() + [(NOW, "203.0.113.50", 300)], now=NOW)[0]
     assert json.loads(json.dumps(a)) == a
+
+
+def test_slow_requests_never_stop_the_bot():
+    def handler(request: httpx.Request):
+        raise httpx.ReadTimeout("slow", request=request)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler), base_url="http://api")
+    assert bot.normal_traffic(client, 5, bot.NORMAL_IPS, 0, random.Random(1), lambda s: None) == 5
+    assert bot.burst(client, "203.0.113.50", 5) == 5
+
+
+def test_error_messages_say_why_elasticsearch_refused():
+    request = httpx.Request("POST", "http://es/pinakes-logs-*/_search")
+    reason = '{"error":"Text fields are not optimised... fielddata is disabled on text fields"}'
+    refused = httpx.HTTPStatusError(
+        "bad", request=request, response=httpx.Response(400, text=reason, request=request)
+    )
+    message = za.describe_error(refused)
+    assert "HTTP 400" in message and "setup_elk.py --check" in message
+    down = za.describe_error(httpx.ConnectError("down", request=request))
+    assert "not reachable" in down and "HTTP" not in down
