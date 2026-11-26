@@ -51,6 +51,46 @@ def build_data_view() -> dict:
     }
 
 
+EXPECTED_TYPES = {
+    "@timestamp": "date",
+    "client_ip": "ip",
+    "method": "keyword",
+    "path": "keyword",
+    "status": "integer",
+    "latency_ms": "float",
+    "geoip.location": "geo_point",
+}
+
+
+def field_types(client: httpx.Client, es: str) -> dict[str, dict[str, str | None]]:
+    """{index: {field: type, or None when the field is absent}} for every log index."""
+    r = client.get(f"{es}/pinakes-logs-*/_mapping/field/{','.join(EXPECTED_TYPES)}")
+    r.raise_for_status()
+    result: dict[str, dict[str, str | None]] = {}
+    for index, body in r.json().items():
+        mappings = body.get("mappings", {})
+        types: dict[str, str | None] = {}
+        for field in EXPECTED_TYPES:
+            info = mappings.get(field)
+            types[field] = next(iter(info["mapping"].values()))["type"] if info else None
+        result[index] = types
+    return result
+
+
+def check_mapping(client: httpx.Client, es: str) -> list[tuple]:
+    """Problems as (level, index, field, expected, actual). geoip.location may be absent
+    (no public IP yet): that is only a warning."""
+    problems = []
+    for index, types in sorted(field_types(client, es).items()):
+        for field, expected in EXPECTED_TYPES.items():
+            actual = types[field]
+            if actual == expected:
+                continue
+            level = "WARN" if field == "geoip.location" and actual is None else "FAIL"
+            problems.append((level, index, field, expected, actual))
+    return problems
+
+
 def wait_for(client: httpx.Client, url: str, name: str, timeout: int = 180) -> None:
     deadline = time.time() + timeout
     while time.time() < deadline:
@@ -73,12 +113,38 @@ def delete_log_indices(client: httpx.Client, es: str) -> list[str]:
     return names
 
 
+def run_check(es: str) -> int:
+    with httpx.Client(timeout=30) as client:
+        wait_for(client, es, "Elasticsearch (logs)")
+        problems = check_mapping(client, es)
+        indices = list(field_types(client, es))
+    if not indices:
+        print("[WARN] no log index yet: start the API, send traffic, wait 30 s, run this again.")
+        return 0
+    print(f"Log indices: {', '.join(indices)}")
+    for level, index, field, expected, actual in problems:
+        print(f"[{level}] {index}: field '{field}' is {actual or 'missing'}, expected {expected}")
+    fails = [p for p in problems if p[0] == "FAIL"]
+    if fails:
+        print("\nThe index was created before the index template: Elasticsearch guessed the types.")
+        print("Fix: python elk/setup_elk.py --reset")
+        print("     (deletes the log indices and installs the template)")
+        print("Then send traffic again, and refresh the Kibana data view (see the guide).")
+        return 1
+    print("[OK] the field types are the expected ones.")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--es", default="http://localhost:9201")
     ap.add_argument("--kibana", default="http://localhost:5601")
     ap.add_argument("--reset", action="store_true")
+    ap.add_argument("--check", action="store_true", help="only check the types of the log fields")
     args = ap.parse_args()
+
+    if args.check:
+        sys.exit(run_check(args.es))
 
     with httpx.Client(timeout=30) as client:
         wait_for(client, args.es, "Elasticsearch (logs)")

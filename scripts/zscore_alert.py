@@ -113,6 +113,19 @@ def save_alert(client: httpx.Client, es: str, alert: dict) -> bool:
     return r.json().get("result") == "created"
 
 
+def describe_error(exc: httpx.HTTPError) -> str:
+    """A message that says WHY Elasticsearch refused, instead of only the exception name."""
+    if isinstance(exc, httpx.HTTPStatusError):
+        body = exc.response.text[:300].replace("\n", " ")
+        hint = ""
+        if "text" in body or "fielddata" in body:
+            hint = (
+                " -> the log index has the wrong field types. Run: python elk/setup_elk.py --check"
+            )
+        return f"Elasticsearch answered HTTP {exc.response.status_code}: {body}{hint}"
+    return f"Elasticsearch not reachable ({exc.__class__.__name__}), will retry"
+
+
 def check_once(client: httpx.Client, es: str, args) -> list[dict]:
     counts = fetch_counts(client, es, args.window)
     alerts = find_alerts(counts, args.threshold, args.min_requests, args.min_samples)
@@ -149,7 +162,7 @@ def main():
                 n = len(check_once(client, args.es, args))
                 print(f"{datetime.now():%H:%M:%S} checked, {n} new alert(s)")
             except httpx.HTTPError as exc:
-                print(f"Elasticsearch error ({exc.__class__.__name__}), will retry")
+                print(describe_error(exc))
             if args.once:
                 break
             time.sleep(args.interval)

@@ -7,6 +7,7 @@ On another laptop (or after a reset), to get the same dashboard back:
 """
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -16,6 +17,24 @@ FILE = Path(__file__).with_name("dashboard.ndjson")
 HEADERS = {"kbn-xsrf": "true"}
 
 
+def strip_field_cache(ndjson: str) -> str:
+    """Remove the cached list of fields from the exported data views.
+
+    Kibana stores the field types it saw when the data view was last refreshed. If that list
+    is old (wrong types), an import brings the old list back and some panels show 'invalid
+    field'. Without the cache, Kibana reads the real mapping when the data view is opened.
+    """
+    lines = []
+    for line in ndjson.splitlines():
+        if not line.strip():
+            continue
+        obj = json.loads(line)
+        if obj.get("type") == "index-pattern":
+            obj.get("attributes", {}).pop("fields", None)
+        lines.append(json.dumps(obj, separators=(",", ":"), ensure_ascii=False))
+    return "\n".join(lines) + "\n"
+
+
 def export_dashboard(client: httpx.Client, kibana: str) -> str:
     r = client.post(
         f"{kibana}/api/saved_objects/_export",
@@ -23,7 +42,7 @@ def export_dashboard(client: httpx.Client, kibana: str) -> str:
         headers=HEADERS,
     )
     r.raise_for_status()
-    return r.text
+    return strip_field_cache(r.text)
 
 
 def import_dashboard(client: httpx.Client, kibana: str, content: bytes) -> dict:
