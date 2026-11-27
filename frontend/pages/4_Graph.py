@@ -3,8 +3,16 @@ import os
 import httpx
 import streamlit as st
 
+import ui
+
 API_URL = os.getenv("API_URL", "http://localhost:8000")
 MAX_DRAWN_EDGES = 60  # a bigger drawing is unreadable
+
+ui.setup(
+    "graph",
+    "Graph",
+    "Who influenced whom (Neo4j). An arrow goes from the follower to the master.",
+)
 
 
 def api_get(path: str, **params):
@@ -34,10 +42,13 @@ def to_dot(nodes: list[dict], edges: list[dict], highlight: str | None = None) -
     lines = [
         "digraph G {",
         "rankdir=LR;",
-        'node [shape=box, style="rounded,filled", fillcolor=white];',
+        'bgcolor="transparent";',
+        'node [shape=box, style="rounded,filled", fillcolor="#F7F6FC", color="#BDB6F2", '
+        'fontcolor="#171526", fontname="Helvetica", fontsize=11, margin="0.18,0.1"];',
+        'edge [color="#777487", fontcolor="#777487", fontname="Helvetica"];',
     ]
     for n in nodes:
-        fill = ', fillcolor="#ffe9a8"' if n["id"] == highlight else ""
+        fill = ', fillcolor="#F4B56F", color="#F4B56F"' if n["id"] == highlight else ""
         lines.append(f'"{dot_escape(n["id"])}" [label="{dot_escape(n["name"])}"{fill}];')
     for e in edges:
         lines.append(
@@ -74,9 +85,6 @@ def make_labels(authors: dict[str, str]) -> dict[str, str]:
     return labels
 
 
-st.title("Graph")
-st.caption("Who influenced whom (Neo4j). An arrow goes from the follower to the master.")
-
 if "graph_authors" not in st.session_state:
     try:
         st.session_state["graph_authors"] = load_authors()
@@ -93,67 +101,91 @@ labels = make_labels(authors)
 names = list(labels)
 
 # ---- 1. path between two authors ----
-st.header("How are two authors connected?")
-start = st.selectbox("From", names, index=0)
-end = st.selectbox("To", names, index=min(1, len(names) - 1))
-if st.button("Find the path"):
-    try:
-        st.session_state["graph_path"] = api_get(
-            "/graph/path", **{"from": labels[start], "to": labels[end]}
-        )
-    except Exception as exc:
-        st.session_state.pop("graph_path", None)
-        show_error(exc)
-
-path = st.session_state.get("graph_path")
-if path:
-    if not path["found"]:
-        st.warning("No path between these two authors (searched up to 8 links).")
-    else:
-        st.success(f"Connected in {path['length']} link(s).")
-        st.graphviz_chart(to_dot(path["nodes"], path["edges"]))
-        by_id = {n["id"]: n["name"] for n in path["nodes"]}
-        for e in path["edges"]:
-            source = by_id.get(e["source"], e["source"])
-            target = by_id.get(e["target"], e["target"])
-            st.write(f"{source} → {target} ({e['type']})")
+ui.section_title("How are two authors connected?", "Shortest path")
+with ui.card():
+    left, right = st.columns([1, 2], gap="large")
+    with left:
+        start = st.selectbox("From", names, index=0)
+        end = st.selectbox("To", names, index=min(1, len(names) - 1))
+        if st.button("Find the path"):
+            try:
+                st.session_state["graph_path"] = api_get(
+                    "/graph/path", **{"from": labels[start], "to": labels[end]}
+                )
+            except Exception as exc:
+                st.session_state.pop("graph_path", None)
+                show_error(exc)
+    with right:
+        path = st.session_state.get("graph_path")
+        if not path:
+            ui.empty_state("Pick two authors", "The shortest chain of influences appears here.")
+        elif not path["found"]:
+            st.warning("No path between these two authors (searched up to 8 links).")
+        else:
+            st.success(f"Connected in {path['length']} link(s).")
+            st.graphviz_chart(to_dot(path["nodes"], path["edges"]))
+            by_id = {n["id"]: n["name"] for n in path["nodes"]}
+            ui.show(
+                ui.steps(
+                    [
+                        (by_id.get(e["source"], e["source"]), by_id.get(e["target"], e["target"]), e["type"])
+                        for e in path["edges"]
+                    ]
+                )
+            )
 
 # ---- 2. PageRank table ----
-st.header("Most influential authors (PageRank)")
-top_n = st.slider("Number of authors", 5, 50, 10)
-try:
-    ranking = api_get("/graph/influence/top", n=top_n)
-except Exception as exc:
-    show_error(exc)
-else:
-    st.dataframe(
-        [{"Rank": i, "Author": r["name"], "Score": r["score"]} for i, r in enumerate(ranking, 1)],
-        hide_index=True,
-    )
+ui.section_title("Most influential authors", "PageRank, damping 0.85")
+with ui.card():
+    top_n = st.slider("Number of authors", 5, 50, 10)
+    try:
+        ranking = api_get("/graph/influence/top", n=top_n)
+    except Exception as exc:
+        show_error(exc)
+    else:
+        if ranking:
+            best = max(r["score"] for r in ranking) or 1
+            ui.show(
+                ui.rank_rows(
+                    [
+                        {"label": r["name"], "value": r["score"], "ratio": r["score"] / best}
+                        for r in ranking
+                    ]
+                )
+            )
+        else:
+            ui.empty_state("No score yet", "Run the PageRank step of the Neo4j pipeline.")
 
 # ---- 3. neighbors ----
-st.header("Around one author")
-center = st.selectbox("Author", names, index=0, key="graph_center")
-depth = st.slider("Depth (links)", 1, 3, 1)
-if st.button("Show the neighbors"):
-    try:
-        st.session_state["graph_nb"] = (
-            labels[center],
-            api_get(f"/graph/neighbors/{labels[center]}", depth=depth),
-        )
-    except Exception as exc:
-        st.session_state.pop("graph_nb", None)
-        show_error(exc)
-
-neighbors = st.session_state.get("graph_nb")
-if neighbors:
-    center_id, graph = neighbors
-    st.write(f"{len(graph['nodes'])} authors, {len(graph['edges'])} links.")
-    if graph["edges"]:
-        shown = graph["edges"][:MAX_DRAWN_EDGES]
-        used = {e["source"] for e in shown} | {e["target"] for e in shown}
-        st.graphviz_chart(to_dot([n for n in graph["nodes"] if n["id"] in used], shown, center_id))
-        if len(graph["edges"]) > len(shown):
-            st.caption(f"Only the first {len(shown)} links are drawn.")
-    else:
-        st.info("This author has no link.")
+ui.section_title("Around one author", "Neighbors up to 3 links away")
+with ui.card():
+    left, right = st.columns([1, 2], gap="large")
+    with left:
+        center = st.selectbox("Author", names, index=0, key="graph_center")
+        depth = st.slider("Depth (links)", 1, 3, 1)
+        if st.button("Show the neighbors"):
+            try:
+                st.session_state["graph_nb"] = (
+                    labels[center],
+                    api_get(f"/graph/neighbors/{labels[center]}", depth=depth),
+                )
+            except Exception as exc:
+                st.session_state.pop("graph_nb", None)
+                show_error(exc)
+    with right:
+        neighbors = st.session_state.get("graph_nb")
+        if not neighbors:
+            ui.empty_state("Pick an author", "Its influences and followers are drawn here.")
+        else:
+            center_id, graph = neighbors
+            st.write(f"{len(graph['nodes'])} authors, {len(graph['edges'])} links.")
+            if graph["edges"]:
+                shown = graph["edges"][:MAX_DRAWN_EDGES]
+                used = {e["source"] for e in shown} | {e["target"] for e in shown}
+                st.graphviz_chart(
+                    to_dot([n for n in graph["nodes"] if n["id"] in used], shown, center_id)
+                )
+                if len(graph["edges"]) > len(shown):
+                    st.caption(f"Only the first {len(shown)} links are drawn.")
+            else:
+                st.info("This author has no link.")

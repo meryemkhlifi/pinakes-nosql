@@ -102,6 +102,10 @@ def text_of(at):
     return " ".join(m.value for m in at.markdown) + " " + " ".join(c.value for c in at.caption)
 
 
+# The opened-work panel is HTML now (ui.work_detail), no longer an st.subheader.
+DETAIL_TITLE = 'pk-detail-title">The Republic</div>'
+
+
 def test_search_page_shows_results_highlight_and_facets(api):
     at = AppTest.from_file(SEARCH_PAGE, default_timeout=15).run()
     assert not at.exception
@@ -116,7 +120,7 @@ def test_search_page_shows_results_highlight_and_facets(api):
 def test_search_page_applies_the_genre_filter(api):
     at = AppTest.from_file(SEARCH_PAGE, default_timeout=15).run()
     at.text_input[0].set_value("republic").run()
-    at.sidebar.selectbox[0].select("philosophy").run()
+    at.selectbox[0].select("philosophy").run()  # "Genre" filter (the sidebar is only the menu)
     assert [c for c in api.calls if c[0] == "/search"][-1][1]["genre"] == "philosophy"
 
 
@@ -133,14 +137,15 @@ def test_browse_page_genre_author_work(api):
     assert not at.exception
     assert at.selectbox[0].options == ["philosophy (3)", "epic (4)"]
     assert at.selectbox[1].options == ["Plato (1)"]
-    assert at.selectbox[2].options == ["The Republic"]
+    assert len(at.selectbox) == 2  # works are cards with an Open button, not a list
+    assert len(at.button) == 1 and "The Republic" in text_of(at) and "w_0003" in text_of(at)
     assert not any(c[0].startswith("/catalog/works/") for c in api.calls)  # no view yet
     assert api.posts == []  # no read event yet
     at.button[0].click().run()
     assert not at.exception
     assert [c[0] for c in api.calls].count("/catalog/works/w_0003") == 1
-    assert at.subheader[0].value == "The Republic"
-    assert "Piraeus" in text_of(at)
+    assert DETAIL_TITLE in text_of(at)
+    assert "Piraeus" in text_of(at) and "Athenian philosopher" in text_of(at)
     assert api.posts == [("/events/read", {"work_id": "w_0003", "user_id": "u_42"})]
 
 
@@ -167,7 +172,9 @@ def test_browse_page_keeps_two_works_with_the_same_title(monkeypatch):
     monkeypatch.setattr(httpx, "post", fake.post)
     at = AppTest.from_file(BROWSE_PAGE, default_timeout=15).run()
     assert not at.exception
-    assert at.selectbox[2].options == ["Iliad [w_0001]", "Iliad [w_0099]"]
+    assert len(at.button) == 2  # one Open button per work
+    body = text_of(at)
+    assert "w_0001" in body and "w_0099" in body  # same title, told apart by the id
 
 
 def test_browse_page_still_shows_the_work_when_the_event_fails(monkeypatch):
@@ -177,7 +184,7 @@ def test_browse_page_still_shows_the_work_when_the_event_fails(monkeypatch):
     at = AppTest.from_file(BROWSE_PAGE, default_timeout=15).run()
     at.button[0].click().run()
     assert not at.exception
-    assert at.subheader[0].value == "The Republic"
+    assert DETAIL_TITLE in text_of(at)
     assert any("not recorded" in w.value for w in at.warning)
 
 
@@ -190,14 +197,15 @@ def test_browse_page_api_down(monkeypatch):
 def test_popular_page_lists_works_and_records_a_read(api):
     at = AppTest.from_file(POPULAR_PAGE, default_timeout=15).run()
     assert not at.exception
-    assert at.dataframe[0].value["Title"].tolist() == ["The Republic", "Iliad"]
-    assert at.dataframe[0].value["Views"].tolist() == [12, 5]
+    body = text_of(at)
+    assert "12 views \u00b7 w_0003" in body and "5 views \u00b7 w_0001" in body
+    assert body.index("The Republic") < body.index("Iliad")  # ranked by views
     assert api.posts == []
     at.button[0].click().run()
     assert not at.exception
     assert [c[0] for c in api.calls].count("/catalog/works/w_0003") == 1
     assert api.posts == [("/events/read", {"work_id": "w_0003", "user_id": "u_42"})]
-    assert at.subheader[0].value == "The Republic"
+    assert DETAIL_TITLE in text_of(at)
 
 
 def test_popular_page_empty_list(monkeypatch):
@@ -212,7 +220,7 @@ def test_popular_page_empty_list(monkeypatch):
     monkeypatch.setattr(httpx, "get", empty)
     at = AppTest.from_file(POPULAR_PAGE, default_timeout=15).run()
     assert not at.exception
-    assert any("No view yet" in i.value for i in at.info)
+    assert "No view yet" in text_of(at)
 
 
 def test_popular_page_redis_down(monkeypatch):

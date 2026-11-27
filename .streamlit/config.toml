@@ -1,0 +1,12 @@
+# Place this file at the repository root (next to docker-compose.yml): Streamlit reads it
+# when you run `streamlit run frontend/Home.py` from there.
+[theme]
+base = "light"
+primaryColor = "#8F84E8"
+backgroundColor = "#EAE7FA"
+secondaryBackgroundColor = "#F7F6FC"
+textColor = "#171526"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
