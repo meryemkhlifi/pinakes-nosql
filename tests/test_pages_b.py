@@ -1,5 +1,6 @@
 """Streamlit pages Graph, Events and Monitoring, run with a fake API (no server needed)."""
 
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -120,10 +121,8 @@ def test_graph_page_path_and_pagerank(api):
         "Plato",
         "Zeno",
     ]  # sorted, from the catalog
-    assert at.dataframe[0].value["Author"].tolist() == [
-        "Plato",
-        "Homer",
-    ]  # PageRank table
+    ranked = re.findall(r'pk-rank-label">([^<]+)<', text_of(at))
+    assert ranked == ["Plato", "Homer"]  # PageRank ranking
     assert not [c for c in api.calls if c[0] == "/graph/path"]  # nothing before the click
     at.selectbox[0].select("Aristotle")
     at.selectbox[1].select("Plato")
@@ -132,7 +131,7 @@ def test_graph_page_path_and_pagerank(api):
     call = [c for c in api.calls if c[0] == "/graph/path"][-1][1]
     assert call == {"from": "a_aristotle", "to": "a_plato"}
     assert any("1 link" in s.value for s in at.success)
-    assert "Aristotle → Plato (STUDENT_OF)" in text_of(at)
+    assert "<b>Aristotle</b><span>→</span><b>Plato</b><em>STUDENT_OF</em>" in text_of(at)
 
 
 def test_graph_page_no_path(monkeypatch):
@@ -182,8 +181,10 @@ def test_events_page_chart_history_and_record(api):
     assert not at.exception
     days = [c[1]["day"] for c in api.calls if c[0] == "/events/work/w_0003"]
     assert len(days) == 7 and days[-1] == datetime.now(timezone.utc).date().isoformat()
-    assert at.metric[0].value == "7"
-    assert at.dataframe[0].value["Work"].tolist() == ["w_0003"]
+    body = text_of(at)
+    assert 'pk-stat-value">7<' in body  # reads today
+    assert 'pk-stat-value">49<' in body  # 7 reads x 7 days
+    assert "<td>w_0003</td>" in body  # reading history table
     assert api.posts == []
     at.button[0].click().run()
     assert not at.exception
@@ -196,7 +197,7 @@ def test_events_page_user_without_history(monkeypatch):
     monkeypatch.setattr(httpx, "get", fake)
     at = AppTest.from_file(EVENTS_PAGE, default_timeout=15).run()
     assert not at.exception
-    assert any("No read event" in i.value for i in at.info)
+    assert "No read event" in text_of(at)
 
 
 def test_events_page_cassandra_down(monkeypatch):
@@ -211,12 +212,10 @@ def test_events_page_cassandra_down(monkeypatch):
 def test_monitoring_page_shows_alerts_and_kibana_link(api):
     at = AppTest.from_file(MONITORING_PAGE, default_timeout=15).run()
     assert not at.exception
-    assert at.dataframe[0].value["Client IP"].tolist() == [
-        "203.0.113.50",
-        "203.0.113.50",
-    ]
-    metrics = {m.label: m.value for m in at.metric}
-    assert metrics["Highest z-score"] == "4.2" and metrics["Top IP"] == "203.0.113.50"
+    body = text_of(at)
+    assert body.count("<td>203.0.113.50</td>") == 2  # one row per alert
+    assert 'pk-stat-label">Highest z-score</div><div class="pk-stat-value">4.2<' in body
+    assert 'pk-stat-label">Top IP</div><div class="pk-stat-value">203.0.113.50<' in body
     assert [c for c in api.calls if c[0] == "/monitoring/alerts"][-1][1] == {"limit": 20}
 
 
@@ -224,7 +223,7 @@ def test_monitoring_page_without_alert(monkeypatch):
     monkeypatch.setattr(httpx, "get", FakeApi(alerts=[]))
     at = AppTest.from_file(MONITORING_PAGE, default_timeout=15).run()
     assert not at.exception
-    assert any("No alert yet" in i.value for i in at.info)
+    assert "No alert yet" in text_of(at)
 
 
 def test_monitoring_page_elasticsearch_down(monkeypatch):
